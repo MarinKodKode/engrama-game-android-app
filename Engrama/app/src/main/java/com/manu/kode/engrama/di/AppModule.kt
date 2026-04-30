@@ -27,7 +27,34 @@ object AppModule {
 
     @Provides
     @Singleton
-    fun provideGson(): Gson = Gson()
+    fun provideGson(): Gson = GsonBuilder()
+        .registerTypeAdapter(Division::class.java, DivisionDeserializer())
+        .create()
+
+    @Provides
+    @Singleton
+    fun provideSettingsStore(repository: SettingsRepository): SettingsStore =
+        SettingsStore(repository)
+
+    @Provides
+    @Singleton
+    fun provideSessionStore(
+        sessionRepository: SessionRepository,
+        settingsRepository: SettingsRepository,
+        settingsStore: SettingsStore
+    ): SessionStore = SessionStore(sessionRepository, settingsRepository, settingsStore)
+
+    @Provides
+    @Singleton
+    fun provideHapticManager(
+        @ApplicationContext context: Context
+    ): HapticManager = HapticManager(context)
+
+    @Provides
+    @Singleton
+    fun provideSoundManager(
+        @ApplicationContext context: Context
+    ): SoundManager = SoundManager(context)
 }
 
 @Module
@@ -46,37 +73,3 @@ abstract class RepositoryModule {
         impl: LocalSessionRepository
     ): SessionRepository
 }
-
-@Provides
-@Singleton
-fun provideGson(): Gson = GsonBuilder()
-    .registerTypeAdapter(Division::class.java, DivisionDeserializer())
-    .create()
-
-@Provides
-@Singleton
-fun provideSettingsStore(repository: SettingsRepository): SettingsStore {
-    return SettingsStore(repository)
-}
-
-@Provides
-@Singleton
-fun provideSessionStore(
-    sessionRepository: SessionRepository,
-    settingsRepository: SettingsRepository,
-    settingsStore: SettingsStore
-): SessionStore {
-    return SessionStore(sessionRepository, settingsRepository, settingsStore)
-}
-
-@Provides
-@Singleton
-fun provideHapticManager(
-    @ApplicationContext context: Context
-): HapticManager = HapticManager(context)
-
-@Provides
-@Singleton
-fun provideSoundManager(
-    @ApplicationContext context: Context
-): SoundManager = SoundManager(context)

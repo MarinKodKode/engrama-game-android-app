@@ -65,7 +65,7 @@ dependencies {
 
     // Hilt
     implementation("com.google.dagger:hilt-android:2.51")
-    annotationProcessor("com.google.dagger:hilt-compiler:2.51")
+    kapt("com.google.dagger:hilt-compiler:2.51")
     implementation("androidx.hilt:hilt-navigation-compose:1.2.0")
 
     // DataStore
@@ -85,4 +85,8 @@ dependencies {
     androidTestImplementation(libs.androidx.compose.ui.test.junit4)
     debugImplementation(libs.androidx.compose.ui.tooling)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
+}
+
+kapt {
+    correctErrorTypes = true
 }
