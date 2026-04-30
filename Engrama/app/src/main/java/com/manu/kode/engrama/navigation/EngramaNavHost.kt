@@ -6,11 +6,16 @@ import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.navArgument
+import com.manu.kode.engrama.features.analytics.ui.AnalyticsScreen
 import com.manu.kode.engrama.features.home.HomeScreen
 import com.manu.kode.engrama.features.language.ui.SummaryLanguageScreen
 import com.manu.kode.engrama.features.language.ui.WordChallengeScreen
+import com.manu.kode.engrama.features.math.ui.ChallengeOperationScreen
 import com.manu.kode.engrama.features.math.ui.ChooseOperationScreen
 import com.manu.kode.engrama.features.math.ui.SummaryMathScreen
+import com.manu.kode.engrama.features.settings.ui.SettingsScreen
+import com.manu.kode.engrama.features.trivia.ui.SummaryTriviaScreen
+import com.manu.kode.engrama.features.trivia.ui.TriviaChallengeScreen
 
 @Composable
 fun EngramaNavHost(navController: NavHostController) {
