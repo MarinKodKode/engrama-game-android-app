@@ -26,8 +26,11 @@ fun AnalyticsScreen(
     navController: NavHostController,
     viewModel: AnalyticsViewModel = hiltViewModel()
 ) {
-    val sessions by viewModel.sessions.collectAsState()
     val selectedFilter by viewModel.selectedFilter.collectAsState()
+    val filteredSessions by viewModel.filteredSessions.collectAsState()
+    val totalSessions by viewModel.totalSessions.collectAsState()
+    val bestScore by viewModel.bestScore.collectAsState()
+    val averageScore by viewModel.averageScore.collectAsState()
 
     Column(
         modifier = Modifier
@@ -94,26 +97,26 @@ fun AnalyticsScreen(
             }
 
             // Stats
-            if (viewModel.filteredSessions.isNotEmpty()) {
+            if (filteredSessions.isNotEmpty()) {
                 item {
                     Row(
                         horizontalArrangement = Arrangement.spacedBy(12.dp),
                         modifier = Modifier.fillMaxWidth()
                     ) {
                         StatBubble(
-                            value = "${viewModel.totalSessions}",
+                            value = "$totalSessions",
                             label = "Partidas",
                             color = accentColor(selectedFilter),
                             modifier = Modifier.weight(1f)
                         )
                         StatBubble(
-                            value = "${viewModel.bestScore}",
+                            value = "$bestScore",
                             label = "Mejor score",
                             color = Color(0xFFFF9800),
                             modifier = Modifier.weight(1f)
                         )
                         StatBubble(
-                            value = "${viewModel.averageScore}",
+                            value = "$averageScore",
                             label = "Promedio",
                             color = Color(0xFF9C27B0),
                             modifier = Modifier.weight(1f)
@@ -132,10 +135,10 @@ fun AnalyticsScreen(
             }
 
             // Lista
-            if (viewModel.filteredSessions.isEmpty()) {
+            if (filteredSessions.isEmpty()) {
                 item { EmptyHistorialView() }
             } else {
-                items(viewModel.filteredSessions) { session ->
+                items(filteredSessions) { session ->
                     SessionRowView(session = session)
                 }
             }

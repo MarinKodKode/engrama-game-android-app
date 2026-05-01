@@ -1,0 +1,5044 @@
+{
+  "questions": [
+    {
+      "id": "q001",
+      "question": "¿Cuál es el símbolo químico del oro?",
+      "answer": "Au",
+      "options": [
+        "Au",
+        "Ag",
+        "Fe"
+      ],
+      "category": "quimica",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q002",
+      "question": "¿Cuál es el símbolo químico del agua?",
+      "answer": "H₂O",
+      "options": [
+        "H₂O",
+        "CO₂",
+        "NaCl"
+      ],
+      "category": "quimica",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q003",
+      "question": "¿Cuántos elementos tiene la tabla periódica actualmente?",
+      "answer": "118",
+      "options": [
+        "118",
+        "108",
+        "92"
+      ],
+      "category": "quimica",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q004",
+      "question": "¿Cuál es el elemento más abundante en la corteza terrestre?",
+      "answer": "Oxígeno",
+      "options": [
+        "Oxígeno",
+        "Silicio",
+        "Hierro"
+      ],
+      "category": "quimica",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q005",
+      "question": "¿Qué gas se produce en la fotosíntesis?",
+      "answer": "Oxígeno",
+      "options": [
+        "Oxígeno",
+        "CO₂",
+        "Nitrógeno"
+      ],
+      "category": "quimica",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q006",
+      "question": "¿Cuál es el número atómico del carbono?",
+      "answer": "6",
+      "options": [
+        "6",
+        "8",
+        "12"
+      ],
+      "category": "quimica",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q007",
+      "question": "¿Qué es una reacción exotérmica?",
+      "answer": "Libera energía",
+      "options": [
+        "Libera energía",
+        "Absorbe energía",
+        "No produce cambio"
+      ],
+      "category": "quimica",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q008",
+      "question": "¿Cuál es la fórmula del dióxido de carbono?",
+      "answer": "CO₂",
+      "options": [
+        "CO₂",
+        "CO",
+        "C₂O"
+      ],
+      "category": "quimica",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q009",
+      "question": "¿Qué tipo de enlace comparte electrones?",
+      "answer": "Covalente",
+      "options": [
+        "Covalente",
+        "Iónico",
+        "Metálico"
+      ],
+      "category": "quimica",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q010",
+      "question": "¿Cuál es el pH del agua pura?",
+      "answer": "7",
+      "options": [
+        "7",
+        "5",
+        "9"
+      ],
+      "category": "quimica",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q011",
+      "question": "¿Qué elemento tiene el símbolo Na?",
+      "answer": "Sodio",
+      "options": [
+        "Sodio",
+        "Nitrógeno",
+        "Neón"
+      ],
+      "category": "quimica",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q012",
+      "question": "¿Qué elemento tiene el símbolo K?",
+      "answer": "Potasio",
+      "options": [
+        "Potasio",
+        "Kriptón",
+        "Calcio"
+      ],
+      "category": "quimica",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q013",
+      "question": "¿Cuál es el gas más abundante en la atmósfera?",
+      "answer": "Nitrógeno",
+      "options": [
+        "Nitrógeno",
+        "Oxígeno",
+        "Argón"
+      ],
+      "category": "quimica",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q014",
+      "question": "¿Qué es un ácido según Arrhenius?",
+      "answer": "Libera H⁺ en agua",
+      "options": [
+        "Libera H⁺ en agua",
+        "Libera OH⁻",
+        "Acepta protones"
+      ],
+      "category": "quimica",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q015",
+      "question": "¿Qué elemento es el diamante?",
+      "answer": "Carbono",
+      "options": [
+        "Carbono",
+        "Silicio",
+        "Grafito"
+      ],
+      "category": "quimica",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q016",
+      "question": "¿Cuál es la masa molar del agua?",
+      "answer": "18 g/mol",
+      "options": [
+        "18 g/mol",
+        "16 g/mol",
+        "20 g/mol"
+      ],
+      "category": "quimica",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q017",
+      "question": "¿Qué ley establece que la presión y volumen de un gas son inversamente proporcionales?",
+      "answer": "Ley de Boyle",
+      "options": [
+        "Ley de Boyle",
+        "Ley de Charles",
+        "Ley de Gay-Lussac"
+      ],
+      "category": "quimica",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q018",
+      "question": "¿Qué partícula tiene carga negativa?",
+      "answer": "Electrón",
+      "options": [
+        "Electrón",
+        "Protón",
+        "Neutrón"
+      ],
+      "category": "quimica",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q019",
+      "question": "¿Cuál es el número de Avogadro?",
+      "answer": "6.022×10²³",
+      "options": [
+        "6.022×10²³",
+        "3.14×10²³",
+        "9.8×10²³"
+      ],
+      "category": "quimica",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q020",
+      "question": "¿Qué tipo de reacción ocurre cuando el hierro se oxida?",
+      "answer": "Oxidación",
+      "options": [
+        "Oxidación",
+        "Reducción",
+        "Neutralización"
+      ],
+      "category": "quimica",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q021",
+      "question": "¿Qué indica el número de masa de un elemento?",
+      "answer": "Protones + neutrones",
+      "options": [
+        "Protones + neutrones",
+        "Solo protones",
+        "Solo neutrones"
+      ],
+      "category": "quimica",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q022",
+      "question": "¿Cuál es la fórmula del ácido sulfúrico?",
+      "answer": "H₂SO₄",
+      "options": [
+        "H₂SO₄",
+        "HCl",
+        "HNO₃"
+      ],
+      "category": "quimica",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q023",
+      "question": "¿Qué son los isótopos?",
+      "answer": "Átomos con mismo número atómico pero diferente masa",
+      "options": [
+        "Átomos con mismo número atómico pero diferente masa",
+        "Moléculas idénticas",
+        "Iones del mismo elemento"
+      ],
+      "category": "quimica",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q024",
+      "question": "¿Cuál es el símbolo del hierro?",
+      "answer": "Fe",
+      "options": [
+        "Fe",
+        "Ir",
+        "Hi"
+      ],
+      "category": "quimica",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q025",
+      "question": "¿Qué tipo de enlace hay en el NaCl?",
+      "answer": "Iónico",
+      "options": [
+        "Iónico",
+        "Covalente",
+        "Metálico"
+      ],
+      "category": "quimica",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q026",
+      "question": "¿Cuál es la unidad de cantidad de sustancia?",
+      "answer": "Mol",
+      "options": [
+        "Mol",
+        "Gramo",
+        "Litro"
+      ],
+      "category": "quimica",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q027",
+      "question": "¿Qué es la electrólisis?",
+      "answer": "Descomposición por corriente eléctrica",
+      "options": [
+        "Descomposición por corriente eléctrica",
+        "Reacción de combustión",
+        "Proceso de destilación"
+      ],
+      "category": "quimica",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q028",
+      "question": "¿Cuál es la fórmula del amoniaco?",
+      "answer": "NH₃",
+      "options": [
+        "NH₃",
+        "NO₂",
+        "N₂H₄"
+      ],
+      "category": "quimica",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q029",
+      "question": "¿Qué es la entalpía?",
+      "answer": "Calor intercambiado a presión constante",
+      "options": [
+        "Calor intercambiado a presión constante",
+        "Energía cinética total",
+        "Presión de un sistema"
+      ],
+      "category": "quimica",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q030",
+      "question": "¿Qué es la hibridación sp³?",
+      "answer": "Enlace tetraédrico del carbono",
+      "options": [
+        "Enlace tetraédrico del carbono",
+        "Enlace lineal",
+        "Enlace triangular"
+      ],
+      "category": "quimica",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q031",
+      "question": "¿Cuál es el principio de Le Chatelier?",
+      "answer": "El sistema se opone a los cambios externos",
+      "options": [
+        "El sistema se opone a los cambios externos",
+        "La energía se conserva",
+        "Los gases ocupan el mismo volumen"
+      ],
+      "category": "quimica",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q032",
+      "question": "¿Qué es la constante de equilibrio Kp?",
+      "answer": "Relación de presiones parciales en equilibrio",
+      "options": [
+        "Relación de presiones parciales en equilibrio",
+        "Velocidad de reacción",
+        "Energía de activación"
+      ],
+      "category": "quimica",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q033",
+      "question": "¿Cuál es la configuración electrónica del carbono?",
+      "answer": "1s²2s²2p²",
+      "options": [
+        "1s²2s²2p²",
+        "1s²2s²2p⁴",
+        "1s²2s²2p⁶"
+      ],
+      "category": "quimica",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q034",
+      "question": "¿Qué es la cromatografía?",
+      "answer": "Técnica de separación de mezclas",
+      "options": [
+        "Técnica de separación de mezclas",
+        "Reacción ácido-base",
+        "Proceso de destilación fraccionada"
+      ],
+      "category": "quimica",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q035",
+      "question": "¿Cuál es el símbolo del plomo?",
+      "answer": "Pb",
+      "options": [
+        "Pb",
+        "Pl",
+        "Pd"
+      ],
+      "category": "quimica",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q036",
+      "question": "¿Qué es un catalizador?",
+      "answer": "Sustancia que acelera una reacción sin consumirse",
+      "options": [
+        "Sustancia que acelera una reacción sin consumirse",
+        "Reactivo principal",
+        "Producto de reacción"
+      ],
+      "category": "quimica",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q037",
+      "question": "¿Cuál es la fórmula del metano?",
+      "answer": "CH₄",
+      "options": [
+        "CH₄",
+        "C₂H₆",
+        "C₃H₈"
+      ],
+      "category": "quimica",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q038",
+      "question": "¿Qué es una solución saturada?",
+      "answer": "No puede disolver más soluto",
+      "options": [
+        "No puede disolver más soluto",
+        "Tiene poca concentración",
+        "Está en equilibrio térmico"
+      ],
+      "category": "quimica",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q039",
+      "question": "¿Cuál es el símbolo del mercurio?",
+      "answer": "Hg",
+      "options": [
+        "Hg",
+        "Mg",
+        "Me"
+      ],
+      "category": "quimica",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q040",
+      "question": "¿Qué son los alótropos?",
+      "answer": "Formas estructurales distintas del mismo elemento",
+      "options": [
+        "Formas estructurales distintas del mismo elemento",
+        "Isótopos radiactivos",
+        "Compuestos de igual fórmula"
+      ],
+      "category": "quimica",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q041",
+      "question": "¿Cuál es la teoría que describe el movimiento de los electrones?",
+      "answer": "Mecánica cuántica",
+      "options": [
+        "Mecánica cuántica",
+        "Teoría de Bohr",
+        "Modelo de Dalton"
+      ],
+      "category": "quimica",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q042",
+      "question": "¿Qué es la solubilidad?",
+      "answer": "Cantidad máxima de soluto en un solvente",
+      "options": [
+        "Cantidad máxima de soluto en un solvente",
+        "Velocidad de disolución",
+        "Temperatura de fusión"
+      ],
+      "category": "quimica",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q043",
+      "question": "¿Cuál es la fórmula del ácido clorhídrico?",
+      "answer": "HCl",
+      "options": [
+        "HCl",
+        "H₂Cl",
+        "HClO"
+      ],
+      "category": "quimica",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q044",
+      "question": "¿Qué es la titulación?",
+      "answer": "Técnica para determinar concentración de una solución",
+      "options": [
+        "Técnica para determinar concentración de una solución",
+        "Proceso de filtración",
+        "Medición de pH"
+      ],
+      "category": "quimica",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q045",
+      "question": "¿Cuál es el elemento más liviano?",
+      "answer": "Hidrógeno",
+      "options": [
+        "Hidrógeno",
+        "Helio",
+        "Litio"
+      ],
+      "category": "quimica",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q046",
+      "question": "¿Qué son los metales alcalinos?",
+      "answer": "Grupo 1 de la tabla periódica",
+      "options": [
+        "Grupo 1 de la tabla periódica",
+        "Grupo 17",
+        "Metales de transición"
+      ],
+      "category": "quimica",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q047",
+      "question": "¿Qué es la destilación?",
+      "answer": "Separación por diferencia de puntos de ebullición",
+      "options": [
+        "Separación por diferencia de puntos de ebullición",
+        "Filtración de sólidos",
+        "Evaporación total"
+      ],
+      "category": "quimica",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q048",
+      "question": "¿Cuál es la fórmula del glucosa?",
+      "answer": "C₆H₁₂O₆",
+      "options": [
+        "C₆H₁₂O₆",
+        "C₁₂H₂₂O₁₁",
+        "C₃H₆O₃"
+      ],
+      "category": "quimica",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q049",
+      "question": "¿Qué es la oxidación en términos de electrones?",
+      "answer": "Pérdida de electrones",
+      "options": [
+        "Pérdida de electrones",
+        "Ganancia de electrones",
+        "Transferencia de protones"
+      ],
+      "category": "quimica",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q050",
+      "question": "¿Cuál es el símbolo del tungsteno?",
+      "answer": "W",
+      "options": [
+        "W",
+        "Tu",
+        "Tg"
+      ],
+      "category": "quimica",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q051",
+      "question": "¿Cuál es la unidad de fuerza en el SI?",
+      "answer": "Newton",
+      "options": [
+        "Newton",
+        "Joule",
+        "Pascal"
+      ],
+      "category": "fisica",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q052",
+      "question": "¿Qué mide el amperímetro?",
+      "answer": "Corriente eléctrica",
+      "options": [
+        "Corriente eléctrica",
+        "Voltaje",
+        "Resistencia"
+      ],
+      "category": "fisica",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q053",
+      "question": "¿Cuál es la velocidad de la luz en el vacío?",
+      "answer": "300,000 km/s",
+      "options": [
+        "300,000 km/s",
+        "150,000 km/s",
+        "500,000 km/s"
+      ],
+      "category": "fisica",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q054",
+      "question": "¿Qué es la inercia?",
+      "answer": "Tendencia a mantener el estado de movimiento",
+      "options": [
+        "Tendencia a mantener el estado de movimiento",
+        "Fuerza gravitacional",
+        "Aceleración constante"
+      ],
+      "category": "fisica",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q055",
+      "question": "¿Cuál es la unidad de energía?",
+      "answer": "Joule",
+      "options": [
+        "Joule",
+        "Watt",
+        "Newton"
+      ],
+      "category": "fisica",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q056",
+      "question": "¿Qué es la gravedad terrestre aproximadamente?",
+      "answer": "9.8 m/s²",
+      "options": [
+        "9.8 m/s²",
+        "6.7 m/s²",
+        "11.2 m/s²"
+      ],
+      "category": "fisica",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q057",
+      "question": "¿Qué tipo de energía tiene un objeto en movimiento?",
+      "answer": "Cinética",
+      "options": [
+        "Cinética",
+        "Potencial",
+        "Térmica"
+      ],
+      "category": "fisica",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q058",
+      "question": "¿Cuántas leyes del movimiento enunció Newton?",
+      "answer": "3",
+      "options": [
+        "3",
+        "2",
+        "4"
+      ],
+      "category": "fisica",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q059",
+      "question": "¿Qué es la frecuencia de una onda?",
+      "answer": "Número de ciclos por segundo",
+      "options": [
+        "Número de ciclos por segundo",
+        "Distancia entre crestas",
+        "Velocidad de propagación"
+      ],
+      "category": "fisica",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q060",
+      "question": "¿Cuál es la unidad de potencia?",
+      "answer": "Watt",
+      "options": [
+        "Watt",
+        "Joule",
+        "Volt"
+      ],
+      "category": "fisica",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q061",
+      "question": "¿Qué es el trabajo en física?",
+      "answer": "Fuerza por desplazamiento",
+      "options": [
+        "Fuerza por desplazamiento",
+        "Masa por velocidad",
+        "Energía por tiempo"
+      ],
+      "category": "fisica",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q062",
+      "question": "¿Qué fenómeno describe el efecto Doppler?",
+      "answer": "Cambio de frecuencia por movimiento relativo",
+      "options": [
+        "Cambio de frecuencia por movimiento relativo",
+        "Reflexión de ondas",
+        "Difracción de luz"
+      ],
+      "category": "fisica",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q063",
+      "question": "¿Cuál es la ley de Ohm?",
+      "answer": "V = IR",
+      "options": [
+        "V = IR",
+        "F = ma",
+        "E = mc²"
+      ],
+      "category": "fisica",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q064",
+      "question": "¿Qué es la presión?",
+      "answer": "Fuerza por unidad de área",
+      "options": [
+        "Fuerza por unidad de área",
+        "Masa por volumen",
+        "Energía por tiempo"
+      ],
+      "category": "fisica",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q065",
+      "question": "¿Cuál es la unidad de temperatura en el SI?",
+      "answer": "Kelvin",
+      "options": [
+        "Kelvin",
+        "Celsius",
+        "Fahrenheit"
+      ],
+      "category": "fisica",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q066",
+      "question": "¿Qué es la refracción de la luz?",
+      "answer": "Cambio de dirección al cambiar de medio",
+      "options": [
+        "Cambio de dirección al cambiar de medio",
+        "Rebote de la luz",
+        "Absorción de energía"
+      ],
+      "category": "fisica",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q067",
+      "question": "¿Cuál es la fórmula de Einstein para energía?",
+      "answer": "E = mc²",
+      "options": [
+        "E = mc²",
+        "F = ma",
+        "P = mv"
+      ],
+      "category": "fisica",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q068",
+      "question": "¿Qué es el campo magnético?",
+      "answer": "Región donde actúan fuerzas magnéticas",
+      "options": [
+        "Región donde actúan fuerzas magnéticas",
+        "Tipo de corriente eléctrica",
+        "Forma de energía térmica"
+      ],
+      "category": "fisica",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q069",
+      "question": "¿Cuál es la primera ley de la termodinámica?",
+      "answer": "Conservación de la energía",
+      "options": [
+        "Conservación de la energía",
+        "Entropía siempre aumenta",
+        "Calor fluye de frío a caliente"
+      ],
+      "category": "fisica",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q070",
+      "question": "¿Qué es la longitud de onda?",
+      "answer": "Distancia entre dos crestas consecutivas",
+      "options": [
+        "Distancia entre dos crestas consecutivas",
+        "Velocidad de la onda",
+        "Amplitud de vibración"
+      ],
+      "category": "fisica",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q071",
+      "question": "¿Cuál es la unidad de carga eléctrica?",
+      "answer": "Coulomb",
+      "options": [
+        "Coulomb",
+        "Ampere",
+        "Volt"
+      ],
+      "category": "fisica",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q072",
+      "question": "¿Qué es la resistencia eléctrica?",
+      "answer": "Oposición al flujo de corriente",
+      "options": [
+        "Oposición al flujo de corriente",
+        "Diferencia de potencial",
+        "Cantidad de carga"
+      ],
+      "category": "fisica",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q073",
+      "question": "¿Qué describe el principio de Arquímedes?",
+      "answer": "Fuerza de empuje en fluidos",
+      "options": [
+        "Fuerza de empuje en fluidos",
+        "Presión en gases",
+        "Tensión superficial"
+      ],
+      "category": "fisica",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q074",
+      "question": "¿Cuál es la segunda ley de Newton?",
+      "answer": "F = ma",
+      "options": [
+        "F = ma",
+        "F = mv",
+        "F = mg"
+      ],
+      "category": "fisica",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q075",
+      "question": "¿Qué es la capacitancia?",
+      "answer": "Capacidad de almacenar carga eléctrica",
+      "options": [
+        "Capacidad de almacenar carga eléctrica",
+        "Resistencia al cambio de corriente",
+        "Flujo magnético"
+      ],
+      "category": "fisica",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q076",
+      "question": "¿Qué es la inductancia?",
+      "answer": "Oposición al cambio de corriente",
+      "options": [
+        "Oposición al cambio de corriente",
+        "Almacenamiento de carga",
+        "Diferencia de potencial"
+      ],
+      "category": "fisica",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q077",
+      "question": "¿Cuál es el principio de incertidumbre de Heisenberg?",
+      "answer": "No se puede conocer posición y momento simultáneamente con precisión",
+      "options": [
+        "No se puede conocer posición y momento simultáneamente con precisión",
+        "La energía siempre se conserva",
+        "Los electrones orbitan en niveles fijos"
+      ],
+      "category": "fisica",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q078",
+      "question": "¿Qué es la impedancia?",
+      "answer": "Resistencia total en circuitos de CA",
+      "options": [
+        "Resistencia total en circuitos de CA",
+        "Voltaje en circuito",
+        "Potencia disipada"
+      ],
+      "category": "fisica",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q079",
+      "question": "¿Cuál es la ley de gravitación universal de Newton?",
+      "answer": "F = G(m₁m₂)/r²",
+      "options": [
+        "F = G(m₁m₂)/r²",
+        "F = ma",
+        "F = kq₁q₂/r²"
+      ],
+      "category": "fisica",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q080",
+      "question": "¿Qué es la energía potencial gravitacional?",
+      "answer": "E = mgh",
+      "options": [
+        "E = mgh",
+        "E = ½mv²",
+        "E = mc²"
+      ],
+      "category": "fisica",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q081",
+      "question": "¿Cuál es la unidad de frecuencia?",
+      "answer": "Hertz",
+      "options": [
+        "Hertz",
+        "Decibel",
+        "Newton"
+      ],
+      "category": "fisica",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q082",
+      "question": "¿Qué es la difracción?",
+      "answer": "Dobladez de ondas al pasar por una abertura",
+      "options": [
+        "Dobladez de ondas al pasar por una abertura",
+        "Reflexión de ondas",
+        "Absorción de energía"
+      ],
+      "category": "fisica",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q083",
+      "question": "¿Cuál es la constante de Planck?",
+      "answer": "6.626×10⁻³⁴ J·s",
+      "options": [
+        "6.626×10⁻³⁴ J·s",
+        "9.8 m/s²",
+        "3×10⁸ m/s"
+      ],
+      "category": "fisica",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q084",
+      "question": "¿Qué es la energía cinética?",
+      "answer": "½mv²",
+      "options": [
+        "½mv²",
+        "mgh",
+        "mc²"
+      ],
+      "category": "fisica",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q085",
+      "question": "¿Cuál es el principio de superposición?",
+      "answer": "Las ondas se suman algebraicamente",
+      "options": [
+        "Las ondas se suman algebraicamente",
+        "Las ondas se multiplican",
+        "Las ondas se cancelan siempre"
+      ],
+      "category": "fisica",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q086",
+      "question": "¿Qué es el momento lineal?",
+      "answer": "Masa por velocidad",
+      "options": [
+        "Masa por velocidad",
+        "Fuerza por tiempo",
+        "Energía por distancia"
+      ],
+      "category": "fisica",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q087",
+      "question": "¿Cuál es la unidad de presión en el SI?",
+      "answer": "Pascal",
+      "options": [
+        "Pascal",
+        "Bar",
+        "Atm"
+      ],
+      "category": "fisica",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q088",
+      "question": "¿Qué es la tensión superficial?",
+      "answer": "Fuerza que actúa en la superficie de un líquido",
+      "options": [
+        "Fuerza que actúa en la superficie de un líquido",
+        "Presión interna del líquido",
+        "Viscosidad del fluido"
+      ],
+      "category": "fisica",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q089",
+      "question": "¿Cuál es la tercera ley de Newton?",
+      "answer": "Acción y reacción son iguales y opuestas",
+      "options": [
+        "Acción y reacción son iguales y opuestas",
+        "La fuerza es proporcional a la masa",
+        "Un objeto en reposo permanece en reposo"
+      ],
+      "category": "fisica",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q090",
+      "question": "¿Qué es la entropía?",
+      "answer": "Medida del desorden de un sistema",
+      "options": [
+        "Medida del desorden de un sistema",
+        "Energía total del sistema",
+        "Temperatura absoluta"
+      ],
+      "category": "fisica",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q091",
+      "question": "¿Cuál es la unidad de campo eléctrico?",
+      "answer": "Newton/Coulomb",
+      "options": [
+        "Newton/Coulomb",
+        "Volt/metro",
+        "Ambas son correctas"
+      ],
+      "category": "fisica",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q092",
+      "question": "¿Qué es la resonancia?",
+      "answer": "Vibración amplificada a frecuencia natural",
+      "options": [
+        "Vibración amplificada a frecuencia natural",
+        "Cancelación de ondas",
+        "Reflexión total"
+      ],
+      "category": "fisica",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q093",
+      "question": "¿Cuál es la velocidad del sonido en el aire?",
+      "answer": "343 m/s",
+      "options": [
+        "343 m/s",
+        "300 m/s",
+        "1500 m/s"
+      ],
+      "category": "fisica",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q094",
+      "question": "¿Qué es la fuerza centrípeta?",
+      "answer": "Fuerza dirigida al centro en movimiento circular",
+      "options": [
+        "Fuerza dirigida al centro en movimiento circular",
+        "Fuerza que aleja del centro",
+        "Fuerza gravitacional"
+      ],
+      "category": "fisica",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q095",
+      "question": "¿Cuál es la ley de Faraday?",
+      "answer": "Un campo magnético variable genera corriente",
+      "options": [
+        "Un campo magnético variable genera corriente",
+        "La carga se conserva",
+        "Los polos iguales se atraen"
+      ],
+      "category": "fisica",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q096",
+      "question": "¿Qué es la masa inercial?",
+      "answer": "Resistencia al cambio de movimiento",
+      "options": [
+        "Resistencia al cambio de movimiento",
+        "Atracción gravitacional",
+        "Energía en reposo"
+      ],
+      "category": "fisica",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q097",
+      "question": "¿Cuál es la unidad de flujo magnético?",
+      "answer": "Weber",
+      "options": [
+        "Weber",
+        "Tesla",
+        "Gauss"
+      ],
+      "category": "fisica",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q098",
+      "question": "¿Qué es la polarización de la luz?",
+      "answer": "Orientación de las oscilaciones en un plano",
+      "options": [
+        "Orientación de las oscilaciones en un plano",
+        "Cambio de color de la luz",
+        "Aumento de intensidad"
+      ],
+      "category": "fisica",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q099",
+      "question": "¿Cuál es la constante gravitacional G?",
+      "answer": "6.67×10⁻¹¹ N·m²/kg²",
+      "options": [
+        "6.67×10⁻¹¹ N·m²/kg²",
+        "9.8 m/s²",
+        "3×10⁸ m/s"
+      ],
+      "category": "fisica",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q100",
+      "question": "¿Qué es la radiación de cuerpo negro?",
+      "answer": "Emisión de radiación por temperatura",
+      "options": [
+        "Emisión de radiación por temperatura",
+        "Absorción de luz",
+        "Reflexión total interna"
+      ],
+      "category": "fisica",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q101",
+      "question": "¿Cuál es la unidad básica de la vida?",
+      "answer": "Célula",
+      "options": [
+        "Célula",
+        "Átomo",
+        "Tejido"
+      ],
+      "category": "biologia",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q102",
+      "question": "¿Qué organelo produce energía en la célula?",
+      "answer": "Mitocondria",
+      "options": [
+        "Mitocondria",
+        "Núcleo",
+        "Ribosoma"
+      ],
+      "category": "biologia",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q103",
+      "question": "¿Cuál es el proceso por el que las plantas producen alimento?",
+      "answer": "Fotosíntesis",
+      "options": [
+        "Fotosíntesis",
+        "Respiración",
+        "Fermentación"
+      ],
+      "category": "biologia",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q104",
+      "question": "¿Qué molécula contiene la información genética?",
+      "answer": "ADN",
+      "options": [
+        "ADN",
+        "ARN",
+        "Proteína"
+      ],
+      "category": "biologia",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q105",
+      "question": "¿Cuántos cromosomas tiene una célula humana normal?",
+      "answer": "46",
+      "options": [
+        "46",
+        "23",
+        "92"
+      ],
+      "category": "biologia",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q106",
+      "question": "¿Qué es la mitosis?",
+      "answer": "División celular para crecimiento",
+      "options": [
+        "División celular para crecimiento",
+        "Reproducción sexual",
+        "Síntesis de proteínas"
+      ],
+      "category": "biologia",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q107",
+      "question": "¿Cuál es la función principal del corazón?",
+      "answer": "Bombear sangre",
+      "options": [
+        "Bombear sangre",
+        "Filtrar toxinas",
+        "Producir hormonas"
+      ],
+      "category": "biologia",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q108",
+      "question": "¿Qué sistema coordina las funciones del cuerpo mediante hormonas?",
+      "answer": "Sistema endocrino",
+      "options": [
+        "Sistema endocrino",
+        "Sistema nervioso",
+        "Sistema inmune"
+      ],
+      "category": "biologia",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q109",
+      "question": "¿Cuál es el órgano más grande del cuerpo humano?",
+      "answer": "Piel",
+      "options": [
+        "Piel",
+        "Hígado",
+        "Intestino"
+      ],
+      "category": "biologia",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q110",
+      "question": "¿Qué es la meiosis?",
+      "answer": "División celular para reproducción",
+      "options": [
+        "División celular para reproducción",
+        "Crecimiento celular",
+        "Reparación del ADN"
+      ],
+      "category": "biologia",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q111",
+      "question": "¿Cuál es la función del ADN?",
+      "answer": "Almacenar información genética",
+      "options": [
+        "Almacenar información genética",
+        "Producir energía",
+        "Transportar oxígeno"
+      ],
+      "category": "biologia",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q112",
+      "question": "¿Qué es la selección natural?",
+      "answer": "Supervivencia de los más aptos",
+      "options": [
+        "Supervivencia de los más aptos",
+        "Mutación genética",
+        "Reproducción asexual"
+      ],
+      "category": "biologia",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q113",
+      "question": "¿Cuál es la función de los riñones?",
+      "answer": "Filtrar la sangre",
+      "options": [
+        "Filtrar la sangre",
+        "Producir bilis",
+        "Almacenar glucosa"
+      ],
+      "category": "biologia",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q114",
+      "question": "¿Qué es un ecosistema?",
+      "answer": "Comunidad de seres vivos y su entorno",
+      "options": [
+        "Comunidad de seres vivos y su entorno",
+        "Grupo de animales",
+        "Tipo de bioma"
+      ],
+      "category": "biologia",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q115",
+      "question": "¿Qué es la homeostasis?",
+      "answer": "Equilibrio interno del organismo",
+      "options": [
+        "Equilibrio interno del organismo",
+        "Proceso de digestión",
+        "Sistema inmune"
+      ],
+      "category": "biologia",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q116",
+      "question": "¿Cuál es la función de los ribosomas?",
+      "answer": "Síntesis de proteínas",
+      "options": [
+        "Síntesis de proteínas",
+        "Producción de energía",
+        "División celular"
+      ],
+      "category": "biologia",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q117",
+      "question": "¿Qué es la cadena alimentaria?",
+      "answer": "Transferencia de energía entre organismos",
+      "options": [
+        "Transferencia de energía entre organismos",
+        "Sistema digestivo",
+        "Red de ecosistemas"
+      ],
+      "category": "biologia",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q118",
+      "question": "¿Cuál es la función de los leucocitos?",
+      "answer": "Defender el organismo",
+      "options": [
+        "Defender el organismo",
+        "Transportar oxígeno",
+        "Coagular la sangre"
+      ],
+      "category": "biologia",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q119",
+      "question": "¿Qué es la simbiosis?",
+      "answer": "Relación entre dos especies diferentes",
+      "options": [
+        "Relación entre dos especies diferentes",
+        "Competencia por recursos",
+        "Reproducción sexual"
+      ],
+      "category": "biologia",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q120",
+      "question": "¿Cuál es la función del hígado?",
+      "answer": "Desintoxicar la sangre y producir bilis",
+      "options": [
+        "Desintoxicar la sangre y producir bilis",
+        "Filtrar orina",
+        "Bombear sangre"
+      ],
+      "category": "biologia",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q121",
+      "question": "¿Qué es la genética mendeliana?",
+      "answer": "Leyes de herencia de Mendel",
+      "options": [
+        "Leyes de herencia de Mendel",
+        "Teoría de la evolución",
+        "Estructura del ADN"
+      ],
+      "category": "biologia",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q122",
+      "question": "¿Cuál es la función de la membrana celular?",
+      "answer": "Regular el paso de sustancias",
+      "options": [
+        "Regular el paso de sustancias",
+        "Producir energía",
+        "Almacenar ADN"
+      ],
+      "category": "biologia",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q123",
+      "question": "¿Qué es la mutación genética?",
+      "answer": "Cambio en la secuencia del ADN",
+      "options": [
+        "Cambio en la secuencia del ADN",
+        "División celular anormal",
+        "Infección viral"
+      ],
+      "category": "biologia",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q124",
+      "question": "¿Cuál es la función del páncreas?",
+      "answer": "Producir insulina y enzimas digestivas",
+      "options": [
+        "Producir insulina y enzimas digestivas",
+        "Filtrar la sangre",
+        "Producir hormonas sexuales"
+      ],
+      "category": "biologia",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q125",
+      "question": "¿Qué es la fotosíntesis anoxigénica?",
+      "answer": "Fotosíntesis sin producción de oxígeno",
+      "options": [
+        "Fotosíntesis sin producción de oxígeno",
+        "Respiración celular",
+        "Fermentación láctica"
+      ],
+      "category": "biologia",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q126",
+      "question": "¿Cuál es la función del retículo endoplasmático?",
+      "answer": "Síntesis y transporte de proteínas y lípidos",
+      "options": [
+        "Síntesis y transporte de proteínas y lípidos",
+        "Producción de energía",
+        "División celular"
+      ],
+      "category": "biologia",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q127",
+      "question": "¿Qué es la epigenética?",
+      "answer": "Cambios en expresión génica sin alterar ADN",
+      "options": [
+        "Cambios en expresión génica sin alterar ADN",
+        "Mutación del genoma",
+        "Recombinación genética"
+      ],
+      "category": "biologia",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q128",
+      "question": "¿Cuál es la función del aparato de Golgi?",
+      "answer": "Modificar y empacar proteínas",
+      "options": [
+        "Modificar y empacar proteínas",
+        "Producir energía",
+        "Almacenar nutrientes"
+      ],
+      "category": "biologia",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q129",
+      "question": "¿Qué es la apoptosis?",
+      "answer": "Muerte celular programada",
+      "options": [
+        "Muerte celular programada",
+        "División celular rápida",
+        "Infección bacteriana"
+      ],
+      "category": "biologia",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q130",
+      "question": "¿Cuál es la función de los lisosomas?",
+      "answer": "Digestión intracelular",
+      "options": [
+        "Digestión intracelular",
+        "Síntesis de proteínas",
+        "Producción de energía"
+      ],
+      "category": "biologia",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q131",
+      "question": "¿Qué es la transcripción del ADN?",
+      "answer": "Síntesis de ARN a partir del ADN",
+      "options": [
+        "Síntesis de ARN a partir del ADN",
+        "Síntesis de proteínas",
+        "Replicación del ADN"
+      ],
+      "category": "biologia",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q132",
+      "question": "¿Cuál es la diferencia entre células procariotas y eucariotas?",
+      "answer": "Las eucariotas tienen núcleo definido",
+      "options": [
+        "Las eucariotas tienen núcleo definido",
+        "Las procariotas son más grandes",
+        "Las eucariotas no tienen membrana"
+      ],
+      "category": "biologia",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q133",
+      "question": "¿Qué es la respiración celular?",
+      "answer": "Producción de energía a partir de glucosa",
+      "options": [
+        "Producción de energía a partir de glucosa",
+        "Intercambio de gases",
+        "Digestión de nutrientes"
+      ],
+      "category": "biologia",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q134",
+      "question": "¿Cuál es la función de los eritrocitos?",
+      "answer": "Transportar oxígeno",
+      "options": [
+        "Transportar oxígeno",
+        "Defender el organismo",
+        "Coagular la sangre"
+      ],
+      "category": "biologia",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q135",
+      "question": "¿Qué es la biodiversidad?",
+      "answer": "Variedad de especies en un ecosistema",
+      "options": [
+        "Variedad de especies en un ecosistema",
+        "Número de plantas en un área",
+        "Cantidad de agua disponible"
+      ],
+      "category": "biologia",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q136",
+      "question": "¿Cuál es la función del sistema linfático?",
+      "answer": "Defender el organismo y drenar líquidos",
+      "options": [
+        "Defender el organismo y drenar líquidos",
+        "Transportar oxígeno",
+        "Producir hormonas"
+      ],
+      "category": "biologia",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q137",
+      "question": "¿Qué es la endosimbiosis?",
+      "answer": "Teoría del origen de organelos eucariotas",
+      "options": [
+        "Teoría del origen de organelos eucariotas",
+        "Tipo de reproducción",
+        "Relación entre plantas"
+      ],
+      "category": "biologia",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q138",
+      "question": "¿Cuál es la función de la insulina?",
+      "answer": "Regular el nivel de glucosa en sangre",
+      "options": [
+        "Regular el nivel de glucosa en sangre",
+        "Transportar oxígeno",
+        "Producir energía"
+      ],
+      "category": "biologia",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q139",
+      "question": "¿Qué es el ciclo de Krebs?",
+      "answer": "Vía metabólica de producción de energía",
+      "options": [
+        "Vía metabólica de producción de energía",
+        "Proceso de fotosíntesis",
+        "Síntesis de proteínas"
+      ],
+      "category": "biologia",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q140",
+      "question": "¿Cuál es la función de las neuronas?",
+      "answer": "Transmitir impulsos nerviosos",
+      "options": [
+        "Transmitir impulsos nerviosos",
+        "Producir hormonas",
+        "Transportar oxígeno"
+      ],
+      "category": "biologia",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q141",
+      "question": "¿Qué es la quimiotaxis?",
+      "answer": "Movimiento celular en respuesta a sustancias químicas",
+      "options": [
+        "Movimiento celular en respuesta a sustancias químicas",
+        "División celular por estímulos",
+        "Síntesis de hormonas"
+      ],
+      "category": "biologia",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q142",
+      "question": "¿Cuál es la función del sistema nervioso autónomo?",
+      "answer": "Regular funciones involuntarias",
+      "options": [
+        "Regular funciones involuntarias",
+        "Controlar movimientos voluntarios",
+        "Procesar información sensorial"
+      ],
+      "category": "biologia",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q143",
+      "question": "¿Qué es la fermentación?",
+      "answer": "Producción de energía sin oxígeno",
+      "options": [
+        "Producción de energía sin oxígeno",
+        "Digestión de proteínas",
+        "Fotosíntesis nocturna"
+      ],
+      "category": "biologia",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q144",
+      "question": "¿Cuál es la función de los cloroplastos?",
+      "answer": "Realizar la fotosíntesis",
+      "options": [
+        "Realizar la fotosíntesis",
+        "Producir energía celular",
+        "Síntesis de proteínas"
+      ],
+      "category": "biologia",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q145",
+      "question": "¿Qué es la especiación?",
+      "answer": "Formación de nuevas especies",
+      "options": [
+        "Formación de nuevas especies",
+        "Extinción de especies",
+        "Migración de poblaciones"
+      ],
+      "category": "biologia",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q146",
+      "question": "¿Cuál es el continente más grande del mundo?",
+      "answer": "Asia",
+      "options": [
+        "Asia",
+        "África",
+        "América"
+      ],
+      "category": "geografia",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q147",
+      "question": "¿Cuál es el océano más grande?",
+      "answer": "Pacífico",
+      "options": [
+        "Pacífico",
+        "Atlántico",
+        "Índico"
+      ],
+      "category": "geografia",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q148",
+      "question": "¿Cuál es el río más largo del mundo?",
+      "answer": "Nilo",
+      "options": [
+        "Nilo",
+        "Amazonas",
+        "Yangtsé"
+      ],
+      "category": "geografia",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q149",
+      "question": "¿Cuál es la montaña más alta del mundo?",
+      "answer": "Everest",
+      "options": [
+        "Everest",
+        "K2",
+        "Aconcagua"
+      ],
+      "category": "geografia",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q150",
+      "question": "¿Cuál es el país más grande del mundo?",
+      "answer": "Rusia",
+      "options": [
+        "Rusia",
+        "Canadá",
+        "China"
+      ],
+      "category": "geografia",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q151",
+      "question": "¿Cuál es la capital de Francia?",
+      "answer": "París",
+      "options": [
+        "París",
+        "Lyon",
+        "Marsella"
+      ],
+      "category": "geografia",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q152",
+      "question": "¿Cuántos continentes hay?",
+      "answer": "7",
+      "options": [
+        "7",
+        "5",
+        "6"
+      ],
+      "category": "geografia",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q153",
+      "question": "¿Cuál es el desierto más grande del mundo?",
+      "answer": "Antártida",
+      "options": [
+        "Antártida",
+        "Sahara",
+        "Gobi"
+      ],
+      "category": "geografia",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q154",
+      "question": "¿Cuál es la capital de Japón?",
+      "answer": "Tokio",
+      "options": [
+        "Tokio",
+        "Osaka",
+        "Kioto"
+      ],
+      "category": "geografia",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q155",
+      "question": "¿Cuál es el lago más profundo del mundo?",
+      "answer": "Baikal",
+      "options": [
+        "Baikal",
+        "Titicaca",
+        "Superior"
+      ],
+      "category": "geografia",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q156",
+      "question": "¿Cuál es el país más poblado del mundo?",
+      "answer": "India",
+      "options": [
+        "India",
+        "China",
+        "Estados Unidos"
+      ],
+      "category": "geografia",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q157",
+      "question": "¿En qué continente está Egipto?",
+      "answer": "África",
+      "options": [
+        "África",
+        "Asia",
+        "Europa"
+      ],
+      "category": "geografia",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q158",
+      "question": "¿Cuál es la capital de Australia?",
+      "answer": "Canberra",
+      "options": [
+        "Canberra",
+        "Sídney",
+        "Melbourne"
+      ],
+      "category": "geografia",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q159",
+      "question": "¿Cuál es el país más pequeño del mundo?",
+      "answer": "Ciudad del Vaticano",
+      "options": [
+        "Ciudad del Vaticano",
+        "Mónaco",
+        "San Marino"
+      ],
+      "category": "geografia",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q160",
+      "question": "¿En qué país nace el río Amazonas?",
+      "answer": "Perú",
+      "options": [
+        "Perú",
+        "Brasil",
+        "Colombia"
+      ],
+      "category": "geografia",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q161",
+      "question": "¿Cuál es la capital de Canadá?",
+      "answer": "Ottawa",
+      "options": [
+        "Ottawa",
+        "Toronto",
+        "Vancouver"
+      ],
+      "category": "geografia",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q162",
+      "question": "¿Cuántos países tiene América del Sur?",
+      "answer": "12",
+      "options": [
+        "12",
+        "10",
+        "14"
+      ],
+      "category": "geografia",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q163",
+      "question": "¿Cuál es el estrecho que separa Europa de África?",
+      "answer": "Gibraltar",
+      "options": [
+        "Gibraltar",
+        "Bering",
+        "Magallanes"
+      ],
+      "category": "geografia",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q164",
+      "question": "¿Cuál es la cordillera más larga del mundo?",
+      "answer": "Andes",
+      "options": [
+        "Andes",
+        "Himalayas",
+        "Rockies"
+      ],
+      "category": "geografia",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q165",
+      "question": "¿En qué país está el desierto del Sahara principalmente?",
+      "answer": "Argelia",
+      "options": [
+        "Argelia",
+        "Egipto",
+        "Libia"
+      ],
+      "category": "geografia",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q166",
+      "question": "¿Cuál es la capital de Brasil?",
+      "answer": "Brasilia",
+      "options": [
+        "Brasilia",
+        "São Paulo",
+        "Río de Janeiro"
+      ],
+      "category": "geografia",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q167",
+      "question": "¿Qué mar separa Europa de Asia en Turquía?",
+      "answer": "Bósforo",
+      "options": [
+        "Bósforo",
+        "Mediterráneo",
+        "Negro"
+      ],
+      "category": "geografia",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q168",
+      "question": "¿Cuál es el volcán más alto del mundo?",
+      "answer": "Ojos del Salado",
+      "options": [
+        "Ojos del Salado",
+        "Kilimanjaro",
+        "Etna"
+      ],
+      "category": "geografia",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q169",
+      "question": "¿En qué continente está Nueva Zelanda?",
+      "answer": "Oceanía",
+      "options": [
+        "Oceanía",
+        "Asia",
+        "Antártida"
+      ],
+      "category": "geografia",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q170",
+      "question": "¿Cuál es el punto más bajo de la Tierra?",
+      "answer": "Mar Muerto",
+      "options": [
+        "Mar Muerto",
+        "Valle de la Muerte",
+        "Lago Assal"
+      ],
+      "category": "geografia",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q171",
+      "question": "¿Cuántos husos horarios tiene Rusia?",
+      "answer": "11",
+      "options": [
+        "11",
+        "9",
+        "13"
+      ],
+      "category": "geografia",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q172",
+      "question": "¿Cuál es la capital de Nigeria?",
+      "answer": "Abuja",
+      "options": [
+        "Abuja",
+        "Lagos",
+        "Kano"
+      ],
+      "category": "geografia",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q173",
+      "question": "¿Qué país tiene más fronteras en el mundo?",
+      "answer": "China",
+      "options": [
+        "China",
+        "Rusia",
+        "Brasil"
+      ],
+      "category": "geografia",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q174",
+      "question": "¿Cuál es el lago más grande de América?",
+      "answer": "Lago Superior",
+      "options": [
+        "Lago Superior",
+        "Lago Michigan",
+        "Lago Titicaca"
+      ],
+      "category": "geografia",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q175",
+      "question": "¿En qué país está el río Ganges?",
+      "answer": "India",
+      "options": [
+        "India",
+        "Bangladesh",
+        "Nepal"
+      ],
+      "category": "geografia",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q176",
+      "question": "¿Cuál es la ciudad más poblada del mundo?",
+      "answer": "Tokio",
+      "options": [
+        "Tokio",
+        "Delhi",
+        "Shanghái"
+      ],
+      "category": "geografia",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q177",
+      "question": "¿Qué país comparte la mayor frontera con México?",
+      "answer": "Estados Unidos",
+      "options": [
+        "Estados Unidos",
+        "Guatemala",
+        "Belice"
+      ],
+      "category": "geografia",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q178",
+      "question": "¿Cuál es la peninsula más grande del mundo?",
+      "answer": "Arabia",
+      "options": [
+        "Arabia",
+        "Ibérica",
+        "Indostán"
+      ],
+      "category": "geografia",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q179",
+      "question": "¿En qué país está el Monte Kilimanjaro?",
+      "answer": "Tanzania",
+      "options": [
+        "Tanzania",
+        "Kenia",
+        "Uganda"
+      ],
+      "category": "geografia",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q180",
+      "question": "¿Cuál es el río más largo de Europa?",
+      "answer": "Volga",
+      "options": [
+        "Volga",
+        "Danubio",
+        "Rin"
+      ],
+      "category": "geografia",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q181",
+      "question": "¿Cuál es el país con más islas del mundo?",
+      "answer": "Suecia",
+      "options": [
+        "Suecia",
+        "Filipinas",
+        "Indonesia"
+      ],
+      "category": "geografia",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q182",
+      "question": "¿Qué océano baña las costas de México?",
+      "answer": "Pacífico y Atlántico",
+      "options": [
+        "Pacífico y Atlántico",
+        "Solo el Pacífico",
+        "Solo el Atlántico"
+      ],
+      "category": "geografia",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q183",
+      "question": "¿Cuál es la capital de Sudáfrica?",
+      "answer": "Pretoria",
+      "options": [
+        "Pretoria",
+        "Ciudad del Cabo",
+        "Johannesburgo"
+      ],
+      "category": "geografia",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q184",
+      "question": "¿En qué continente está Turquía principalmente?",
+      "answer": "Asia",
+      "options": [
+        "Asia",
+        "Europa",
+        "Ambos continentes"
+      ],
+      "category": "geografia",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q185",
+      "question": "¿Cuál es el mar interior más grande del mundo?",
+      "answer": "Mar Caspio",
+      "options": [
+        "Mar Caspio",
+        "Mar Negro",
+        "Mar de Aral"
+      ],
+      "category": "geografia",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q186",
+      "question": "¿Cuál es la ciudad más alta del mundo?",
+      "answer": "La Paz",
+      "options": [
+        "La Paz",
+        "Quito",
+        "Bogotá"
+      ],
+      "category": "geografia",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q187",
+      "question": "¿En qué país está el Machu Picchu?",
+      "answer": "Perú",
+      "options": [
+        "Perú",
+        "Bolivia",
+        "Ecuador"
+      ],
+      "category": "geografia",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q188",
+      "question": "¿Cuál es el archipiélago más grande del mundo?",
+      "answer": "Indonesia",
+      "options": [
+        "Indonesia",
+        "Filipinas",
+        "Japón"
+      ],
+      "category": "geografia",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q189",
+      "question": "¿Qué río atraviesa El Cairo?",
+      "answer": "Nilo",
+      "options": [
+        "Nilo",
+        "Éufrates",
+        "Tigris"
+      ],
+      "category": "geografia",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q190",
+      "question": "¿Cuál es el punto más al norte del mundo?",
+      "answer": "Polo Norte",
+      "options": [
+        "Polo Norte",
+        "Groenlandia",
+        "Islandia"
+      ],
+      "category": "geografia",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q191",
+      "question": "¿Cuántas letras tiene el alfabeto español?",
+      "answer": "27",
+      "options": [
+        "27",
+        "26",
+        "28"
+      ],
+      "category": "español",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q192",
+      "question": "¿Qué es un sustantivo?",
+      "answer": "Nombre de personas, lugares o cosas",
+      "options": [
+        "Nombre de personas, lugares o cosas",
+        "Acción o estado",
+        "Modificador del sustantivo"
+      ],
+      "category": "español",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q193",
+      "question": "¿Cuántos acentos ortográficos existen en español?",
+      "answer": "3",
+      "options": [
+        "3",
+        "2",
+        "4"
+      ],
+      "category": "español",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q194",
+      "question": "¿Qué es un verbo?",
+      "answer": "Palabra que expresa acción o estado",
+      "options": [
+        "Palabra que expresa acción o estado",
+        "Nombre de objeto",
+        "Modificador del verbo"
+      ],
+      "category": "español",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q195",
+      "question": "¿Cómo se llama la figura retórica que compara usando 'como'?",
+      "answer": "Símil",
+      "options": [
+        "Símil",
+        "Metáfora",
+        "Hipérbole"
+      ],
+      "category": "español",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q196",
+      "question": "¿Qué es un adjetivo?",
+      "answer": "Palabra que modifica al sustantivo",
+      "options": [
+        "Palabra que modifica al sustantivo",
+        "Acción del sujeto",
+        "Conecta oraciones"
+      ],
+      "category": "español",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q197",
+      "question": "¿Qué es la metáfora?",
+      "answer": "Comparación sin 'como'",
+      "options": [
+        "Comparación sin 'como'",
+        "Exageración literaria",
+        "Repetición de sonidos"
+      ],
+      "category": "español",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q198",
+      "question": "¿Qué es el sujeto de una oración?",
+      "answer": "Quien realiza la acción",
+      "options": [
+        "Quien realiza la acción",
+        "Lo que se dice del sujeto",
+        "El objeto de la acción"
+      ],
+      "category": "español",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q199",
+      "question": "¿Qué es un adverbio?",
+      "answer": "Modifica al verbo, adjetivo u otro adverbio",
+      "options": [
+        "Modifica al verbo, adjetivo u otro adverbio",
+        "Nombre de lugar",
+        "Conecta sustantivos"
+      ],
+      "category": "español",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q200",
+      "question": "¿Qué es la aliteración?",
+      "answer": "Repetición de sonidos similares",
+      "options": [
+        "Repetición de sonidos similares",
+        "Comparación literaria",
+        "Contradicción aparente"
+      ],
+      "category": "español",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q201",
+      "question": "¿Cuál es el gerundio de 'correr'?",
+      "answer": "Corriendo",
+      "options": [
+        "Corriendo",
+        "Corrido",
+        "Corre"
+      ],
+      "category": "español",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q202",
+      "question": "¿Qué es la hipérbole?",
+      "answer": "Exageración con fines expresivos",
+      "options": [
+        "Exageración con fines expresivos",
+        "Comparación directa",
+        "Personificación de objetos"
+      ],
+      "category": "español",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q203",
+      "question": "¿Qué tiempo verbal es 'habría comido'?",
+      "answer": "Condicional compuesto",
+      "options": [
+        "Condicional compuesto",
+        "Futuro perfecto",
+        "Pluscuamperfecto"
+      ],
+      "category": "español",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q204",
+      "question": "¿Qué es la personificación?",
+      "answer": "Dar cualidades humanas a objetos",
+      "options": [
+        "Dar cualidades humanas a objetos",
+        "Comparación con animales",
+        "Repetición de palabras"
+      ],
+      "category": "español",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q205",
+      "question": "¿Qué es un oxímoron?",
+      "answer": "Unión de términos contradictorios",
+      "options": [
+        "Unión de términos contradictorios",
+        "Exageración literaria",
+        "Comparación indirecta"
+      ],
+      "category": "español",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q206",
+      "question": "¿Cuál es el plural de 'lunes'?",
+      "answer": "Lunes",
+      "options": [
+        "Lunes",
+        "Luneses",
+        "Lunos"
+      ],
+      "category": "español",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q207",
+      "question": "¿Qué es la perífrasis verbal?",
+      "answer": "Combinación de verbo auxiliar + infinitivo/gerundio",
+      "options": [
+        "Combinación de verbo auxiliar + infinitivo/gerundio",
+        "Verbo irregular",
+        "Tiempo verbal compuesto"
+      ],
+      "category": "español",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q208",
+      "question": "¿Qué es el predicado de una oración?",
+      "answer": "Lo que se dice del sujeto",
+      "options": [
+        "Lo que se dice del sujeto",
+        "Quien realiza la acción",
+        "El complemento directo"
+      ],
+      "category": "español",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q209",
+      "question": "¿Qué es la anáfora?",
+      "answer": "Repetición de palabras al inicio de versos",
+      "options": [
+        "Repetición de palabras al inicio de versos",
+        "Comparación literaria",
+        "Exageración expresiva"
+      ],
+      "category": "español",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q210",
+      "question": "¿Cuál es la diferencia entre 'haber' y 'a ver'?",
+      "answer": "Haber es verbo; a ver es locución",
+      "options": [
+        "Haber es verbo; a ver es locución",
+        "Son sinónimos",
+        "A ver es verbo"
+      ],
+      "category": "español",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q211",
+      "question": "¿Qué es un sinónimo?",
+      "answer": "Palabra con significado similar",
+      "options": [
+        "Palabra con significado similar",
+        "Palabra opuesta",
+        "Palabra derivada"
+      ],
+      "category": "español",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q212",
+      "question": "¿Qué es un antónimo?",
+      "answer": "Palabra con significado opuesto",
+      "options": [
+        "Palabra con significado opuesto",
+        "Palabra similar",
+        "Palabra del mismo origen"
+      ],
+      "category": "español",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q213",
+      "question": "¿Qué es la dieresis?",
+      "answer": "Signo que indica pronunciación de u en güe/güi",
+      "options": [
+        "Signo que indica pronunciación de u en güe/güi",
+        "Acento ortográfico",
+        "Signo de puntuación"
+      ],
+      "category": "español",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q214",
+      "question": "¿Cuándo se usa el subjuntivo?",
+      "answer": "Para expresar duda, deseo o emoción",
+      "options": [
+        "Para expresar duda, deseo o emoción",
+        "Para acciones pasadas",
+        "Para acciones futuras"
+      ],
+      "category": "español",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q215",
+      "question": "¿Qué es la conjugación verbal?",
+      "answer": "Variación del verbo según persona y tiempo",
+      "options": [
+        "Variación del verbo según persona y tiempo",
+        "Clasificación de sustantivos",
+        "Tipos de adjetivos"
+      ],
+      "category": "español",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q216",
+      "question": "¿Cuánto es 15% de 200?",
+      "answer": "30",
+      "options": [
+        "30",
+        "25",
+        "35"
+      ],
+      "category": "matematicas",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q217",
+      "question": "¿Cuánto es la raíz cuadrada de 144?",
+      "answer": "12",
+      "options": [
+        "12",
+        "14",
+        "11"
+      ],
+      "category": "matematicas",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q218",
+      "question": "¿Cuántos lados tiene un hexágono?",
+      "answer": "6",
+      "options": [
+        "6",
+        "5",
+        "8"
+      ],
+      "category": "matematicas",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q219",
+      "question": "¿Cuánto es 2³?",
+      "answer": "8",
+      "options": [
+        "8",
+        "6",
+        "9"
+      ],
+      "category": "matematicas",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q220",
+      "question": "¿Cuál es el valor de π aproximadamente?",
+      "answer": "3.14159",
+      "options": [
+        "3.14159",
+        "2.71828",
+        "1.61803"
+      ],
+      "category": "matematicas",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q221",
+      "question": "¿Cuánto es la suma de ángulos interiores de un triángulo?",
+      "answer": "180°",
+      "options": [
+        "180°",
+        "360°",
+        "90°"
+      ],
+      "category": "matematicas",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q222",
+      "question": "¿Qué es un número primo?",
+      "answer": "Divisible solo entre 1 y sí mismo",
+      "options": [
+        "Divisible solo entre 1 y sí mismo",
+        "Múltiplo de 2",
+        "Número negativo"
+      ],
+      "category": "matematicas",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q223",
+      "question": "¿Cuánto es 7 × 8?",
+      "answer": "56",
+      "options": [
+        "56",
+        "54",
+        "58"
+      ],
+      "category": "matematicas",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q224",
+      "question": "¿Cuál es el área de un círculo con radio 5?",
+      "answer": "78.54",
+      "options": [
+        "78.54",
+        "31.4",
+        "25π"
+      ],
+      "category": "matematicas",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q225",
+      "question": "¿Cuánto es log₁₀(1000)?",
+      "answer": "3",
+      "options": [
+        "3",
+        "100",
+        "10"
+      ],
+      "category": "matematicas",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q226",
+      "question": "¿Qué es la media aritmética?",
+      "answer": "Suma de valores dividida entre cantidad",
+      "options": [
+        "Suma de valores dividida entre cantidad",
+        "Valor central del conjunto",
+        "Valor más frecuente"
+      ],
+      "category": "matematicas",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q227",
+      "question": "¿Cuánto es la derivada de x²?",
+      "answer": "2x",
+      "options": [
+        "2x",
+        "x²",
+        "2"
+      ],
+      "category": "matematicas",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q228",
+      "question": "¿Qué es el mínimo común múltiplo?",
+      "answer": "El menor múltiplo común de dos números",
+      "options": [
+        "El menor múltiplo común de dos números",
+        "El mayor divisor común",
+        "La suma de dos números"
+      ],
+      "category": "matematicas",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q229",
+      "question": "¿Cuánto es sen(90°)?",
+      "answer": "1",
+      "options": [
+        "1",
+        "0",
+        "0.5"
+      ],
+      "category": "matematicas",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q230",
+      "question": "¿Cuál es la fórmula del área de un triángulo?",
+      "answer": "base × altura / 2",
+      "options": [
+        "base × altura / 2",
+        "base × altura",
+        "lado²"
+      ],
+      "category": "matematicas",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q231",
+      "question": "¿Cuánto es la integral de 2x?",
+      "answer": "x² + C",
+      "options": [
+        "x² + C",
+        "2x² + C",
+        "x + C"
+      ],
+      "category": "matematicas",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q232",
+      "question": "¿Qué es un número irracional?",
+      "answer": "No puede expresarse como fracción",
+      "options": [
+        "No puede expresarse como fracción",
+        "Número negativo",
+        "Múltiplo de π"
+      ],
+      "category": "matematicas",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q233",
+      "question": "¿Cuánto es cos(0°)?",
+      "answer": "1",
+      "options": [
+        "1",
+        "0",
+        "-1"
+      ],
+      "category": "matematicas",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q234",
+      "question": "¿Qué es el teorema de Pitágoras?",
+      "answer": "a² + b² = c²",
+      "options": [
+        "a² + b² = c²",
+        "F = ma",
+        "E = mc²"
+      ],
+      "category": "matematicas",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q235",
+      "question": "¿Cuánto es 0! (cero factorial)?",
+      "answer": "1",
+      "options": [
+        "1",
+        "0",
+        "Indefinido"
+      ],
+      "category": "matematicas",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q236",
+      "question": "¿Qué es la moda estadística?",
+      "answer": "El valor que más se repite",
+      "options": [
+        "El valor que más se repite",
+        "El valor central",
+        "El promedio"
+      ],
+      "category": "matematicas",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q237",
+      "question": "¿Cuánto es e (número de Euler) aproximadamente?",
+      "answer": "2.718",
+      "options": [
+        "2.718",
+        "3.141",
+        "1.618"
+      ],
+      "category": "matematicas",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q238",
+      "question": "¿Qué es la mediana?",
+      "answer": "Valor central de un conjunto ordenado",
+      "options": [
+        "Valor central de un conjunto ordenado",
+        "El valor más frecuente",
+        "El promedio de los datos"
+      ],
+      "category": "matematicas",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q239",
+      "question": "¿Cuánto es tan(45°)?",
+      "answer": "1",
+      "options": [
+        "1",
+        "0",
+        "√2"
+      ],
+      "category": "matematicas",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q240",
+      "question": "¿Qué es la varianza?",
+      "answer": "Medida de dispersión de datos",
+      "options": [
+        "Medida de dispersión de datos",
+        "Valor promedio",
+        "Diferencia entre máximo y mínimo"
+      ],
+      "category": "matematicas",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q241",
+      "question": "¿Cuándo cayó el Imperio Romano de Occidente?",
+      "answer": "476 d.C.",
+      "options": [
+        "476 d.C.",
+        "410 d.C.",
+        "395 d.C."
+      ],
+      "category": "historia",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q242",
+      "question": "¿Quién descubrió América en 1492?",
+      "answer": "Cristóbal Colón",
+      "options": [
+        "Cristóbal Colón",
+        "Américo Vespucio",
+        "Fernando de Magallanes"
+      ],
+      "category": "historia",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q243",
+      "question": "¿En qué año comenzó la Primera Guerra Mundial?",
+      "answer": "1914",
+      "options": [
+        "1914",
+        "1918",
+        "1939"
+      ],
+      "category": "historia",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q244",
+      "question": "¿En qué año terminó la Segunda Guerra Mundial?",
+      "answer": "1945",
+      "options": [
+        "1945",
+        "1943",
+        "1947"
+      ],
+      "category": "historia",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q245",
+      "question": "¿Quién fue el primer presidente de México?",
+      "answer": "Guadalupe Victoria",
+      "options": [
+        "Guadalupe Victoria",
+        "Benito Juárez",
+        "Miguel Hidalgo"
+      ],
+      "category": "historia",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q246",
+      "question": "¿En qué año se consumó la Independencia de México?",
+      "answer": "1821",
+      "options": [
+        "1821",
+        "1810",
+        "1824"
+      ],
+      "category": "historia",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q247",
+      "question": "¿Quién fue Cleopatra?",
+      "answer": "Reina del antiguo Egipto",
+      "options": [
+        "Reina del antiguo Egipto",
+        "Emperatriz romana",
+        "Reina de Grecia"
+      ],
+      "category": "historia",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q248",
+      "question": "¿En qué año cayó el Muro de Berlín?",
+      "answer": "1989",
+      "options": [
+        "1989",
+        "1991",
+        "1987"
+      ],
+      "category": "historia",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q249",
+      "question": "¿Quién fue Napoleón Bonaparte?",
+      "answer": "Emperador francés",
+      "options": [
+        "Emperador francés",
+        "General inglés",
+        "Rey español"
+      ],
+      "category": "historia",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q250",
+      "question": "¿En qué año llegó el hombre a la Luna?",
+      "answer": "1969",
+      "options": [
+        "1969",
+        "1965",
+        "1972"
+      ],
+      "category": "historia",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q251",
+      "question": "¿Quién fue el líder de la Revolución Mexicana?",
+      "answer": "Varios líderes como Villa y Zapata",
+      "options": [
+        "Varios líderes como Villa y Zapata",
+        "Porfirio Díaz",
+        "Benito Juárez"
+      ],
+      "category": "historia",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q252",
+      "question": "¿En qué año inició la Revolución Francesa?",
+      "answer": "1789",
+      "options": [
+        "1789",
+        "1776",
+        "1804"
+      ],
+      "category": "historia",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q253",
+      "question": "¿Quién fue Julio César?",
+      "answer": "Líder político y militar romano",
+      "options": [
+        "Líder político y militar romano",
+        "Faraón egipcio",
+        "Filósofo griego"
+      ],
+      "category": "historia",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q254",
+      "question": "¿En qué año se fundó la ONU?",
+      "answer": "1945",
+      "options": [
+        "1945",
+        "1919",
+        "1950"
+      ],
+      "category": "historia",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q255",
+      "question": "¿Quién fue Martin Luther King?",
+      "answer": "Líder del movimiento de derechos civiles",
+      "options": [
+        "Líder del movimiento de derechos civiles",
+        "Presidente de EE.UU.",
+        "Fundador de la NAACP"
+      ],
+      "category": "historia",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q256",
+      "question": "¿En qué año fue asesinado Abraham Lincoln?",
+      "answer": "1865",
+      "options": [
+        "1865",
+        "1863",
+        "1870"
+      ],
+      "category": "historia",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q257",
+      "question": "¿Qué civilización construyó las pirámides de Giza?",
+      "answer": "Egipcia",
+      "options": [
+        "Egipcia",
+        "Sumeria",
+        "Griega"
+      ],
+      "category": "historia",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q258",
+      "question": "¿En qué año comenzó la Guerra Fría?",
+      "answer": "1947",
+      "options": [
+        "1947",
+        "1945",
+        "1950"
+      ],
+      "category": "historia",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q259",
+      "question": "¿Quién fue el primer emperador de China?",
+      "answer": "Qin Shi Huang",
+      "options": [
+        "Qin Shi Huang",
+        "Kublai Kan",
+        "Mao Zedong"
+      ],
+      "category": "historia",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q260",
+      "question": "¿En qué año se firmó la Carta Magna?",
+      "answer": "1215",
+      "options": [
+        "1215",
+        "1066",
+        "1307"
+      ],
+      "category": "historia",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q261",
+      "question": "¿Qué fue el Renacimiento?",
+      "answer": "Movimiento cultural europeo siglos XIV-XVII",
+      "options": [
+        "Movimiento cultural europeo siglos XIV-XVII",
+        "Revolución industrial",
+        "Reforma religiosa"
+      ],
+      "category": "historia",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q262",
+      "question": "¿Quién fue Simón Bolívar?",
+      "answer": "Libertador de América del Sur",
+      "options": [
+        "Libertador de América del Sur",
+        "Presidente de México",
+        "General español"
+      ],
+      "category": "historia",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q263",
+      "question": "¿En qué año se abolió la esclavitud en EE.UU.?",
+      "answer": "1865",
+      "options": [
+        "1865",
+        "1850",
+        "1870"
+      ],
+      "category": "historia",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q264",
+      "question": "¿Qué fue la Inquisición española?",
+      "answer": "Tribunal eclesiástico para juzgar herejías",
+      "options": [
+        "Tribunal eclesiástico para juzgar herejías",
+        "Guerra de reconquista",
+        "Movimiento artístico"
+      ],
+      "category": "historia",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q265",
+      "question": "¿Quién fue Hernán Cortés?",
+      "answer": "Conquistador español de México",
+      "options": [
+        "Conquistador español de México",
+        "Explorador portugués",
+        "Pirata inglés"
+      ],
+      "category": "historia",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q266",
+      "question": "¿En qué año comenzó la Revolución Industrial?",
+      "answer": "Siglo XVIII",
+      "options": [
+        "Siglo XVIII",
+        "Siglo XVI",
+        "Siglo XIX"
+      ],
+      "category": "historia",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q267",
+      "question": "¿Qué tratado puso fin a la Primera Guerra Mundial?",
+      "answer": "Tratado de Versalles",
+      "options": [
+        "Tratado de Versalles",
+        "Tratado de París",
+        "Tratado de Berlín"
+      ],
+      "category": "historia",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q268",
+      "question": "¿Quién fue Mahatma Gandhi?",
+      "answer": "Líder de independencia de India",
+      "options": [
+        "Líder de independencia de India",
+        "Presidente de India",
+        "Filósofo hindú"
+      ],
+      "category": "historia",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q269",
+      "question": "¿En qué año se fundó Roma según la tradición?",
+      "answer": "753 a.C.",
+      "options": [
+        "753 a.C.",
+        "509 a.C.",
+        "476 a.C."
+      ],
+      "category": "historia",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q270",
+      "question": "¿Qué fue la Guerra de los 100 Años?",
+      "answer": "Conflicto entre Francia e Inglaterra",
+      "options": [
+        "Conflicto entre Francia e Inglaterra",
+        "Guerra entre Roma y Cartago",
+        "Cruzada cristiana"
+      ],
+      "category": "historia",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q271",
+      "question": "¿Cuántos planetas tiene el sistema solar?",
+      "answer": "8",
+      "options": [
+        "8",
+        "9",
+        "7"
+      ],
+      "category": "miscelaneos",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q272",
+      "question": "¿Cuál es el animal más rápido del mundo?",
+      "answer": "Guepardo",
+      "options": [
+        "Guepardo",
+        "León",
+        "Halcón peregrino"
+      ],
+      "category": "miscelaneos",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q273",
+      "question": "¿Qué inventor creó la bombilla eléctrica?",
+      "answer": "Thomas Edison",
+      "options": [
+        "Thomas Edison",
+        "Nikola Tesla",
+        "Alexander Graham Bell"
+      ],
+      "category": "miscelaneos",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q274",
+      "question": "¿Cuál es el idioma más hablado en el mundo?",
+      "answer": "Mandarin chino",
+      "options": [
+        "Mandarin chino",
+        "Inglés",
+        "Español"
+      ],
+      "category": "miscelaneos",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q275",
+      "question": "¿Cuántos huesos tiene el cuerpo humano adulto?",
+      "answer": "206",
+      "options": [
+        "206",
+        "208",
+        "200"
+      ],
+      "category": "miscelaneos",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q276",
+      "question": "¿Cuál es el animal más grande del mundo?",
+      "answer": "Ballena azul",
+      "options": [
+        "Ballena azul",
+        "Elefante africano",
+        "Tiburón ballena"
+      ],
+      "category": "miscelaneos",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q277",
+      "question": "¿Qué país inventó el papel?",
+      "answer": "China",
+      "options": [
+        "China",
+        "Egipto",
+        "Mesopotamia"
+      ],
+      "category": "miscelaneos",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q278",
+      "question": "¿Cuántos colores tiene el arcoíris?",
+      "answer": "7",
+      "options": [
+        "7",
+        "6",
+        "8"
+      ],
+      "category": "miscelaneos",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q279",
+      "question": "¿Cuál es el metal más precioso?",
+      "answer": "Rodio",
+      "options": [
+        "Rodio",
+        "Oro",
+        "Platino"
+      ],
+      "category": "miscelaneos",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q280",
+      "question": "¿Quién escribió Don Quijote?",
+      "answer": "Miguel de Cervantes",
+      "options": [
+        "Miguel de Cervantes",
+        "Lope de Vega",
+        "Francisco de Quevedo"
+      ],
+      "category": "miscelaneos",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q281",
+      "question": "¿Cuál es el instrumento de cuerda más grande?",
+      "answer": "Contrabajo",
+      "options": [
+        "Contrabajo",
+        "Violonchelo",
+        "Arpa"
+      ],
+      "category": "miscelaneos",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q282",
+      "question": "¿En qué año se inventó el internet?",
+      "answer": "1969",
+      "options": [
+        "1969",
+        "1989",
+        "1975"
+      ],
+      "category": "miscelaneos",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q283",
+      "question": "¿Cuál es el país con más medallas olímpicas históricamente?",
+      "answer": "Estados Unidos",
+      "options": [
+        "Estados Unidos",
+        "Rusia",
+        "China"
+      ],
+      "category": "miscelaneos",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q284",
+      "question": "¿Qué país tiene la mayor cantidad de UNESCO?",
+      "answer": "Italia",
+      "options": [
+        "Italia",
+        "China",
+        "Francia"
+      ],
+      "category": "miscelaneos",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q285",
+      "question": "¿Cuál es la moneda de Japón?",
+      "answer": "Yen",
+      "options": [
+        "Yen",
+        "Won",
+        "Yuan"
+      ],
+      "category": "miscelaneos",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q286",
+      "question": "¿Quién pintó La Mona Lisa?",
+      "answer": "Leonardo da Vinci",
+      "options": [
+        "Leonardo da Vinci",
+        "Miguel Ángel",
+        "Rafael"
+      ],
+      "category": "miscelaneos",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q287",
+      "question": "¿Cuántos jugadores tiene un equipo de fútbol?",
+      "answer": "11",
+      "options": [
+        "11",
+        "10",
+        "12"
+      ],
+      "category": "miscelaneos",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q288",
+      "question": "¿Cuál es el libro más vendido de la historia?",
+      "answer": "La Biblia",
+      "options": [
+        "La Biblia",
+        "Don Quijote",
+        "Harry Potter"
+      ],
+      "category": "miscelaneos",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q289",
+      "question": "¿Qué empresa creó el iPhone?",
+      "answer": "Apple",
+      "options": [
+        "Apple",
+        "Samsung",
+        "Google"
+      ],
+      "category": "miscelaneos",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q290",
+      "question": "¿Cuántas sinfonías compuso Beethoven?",
+      "answer": "9",
+      "options": [
+        "9",
+        "7",
+        "12"
+      ],
+      "category": "miscelaneos",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q291",
+      "question": "¿Cuál es el deporte más practicado en el mundo?",
+      "answer": "Fútbol",
+      "options": [
+        "Fútbol",
+        "Cricket",
+        "Tenis"
+      ],
+      "category": "miscelaneos",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q292",
+      "question": "¿Qué elemento tiene el símbolo Au?",
+      "answer": "Oro",
+      "options": [
+        "Oro",
+        "Plata",
+        "Aluminio"
+      ],
+      "category": "miscelaneos",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q293",
+      "question": "¿En qué ciudad está el Big Ben?",
+      "answer": "Londres",
+      "options": [
+        "Londres",
+        "París",
+        "Berlín"
+      ],
+      "category": "miscelaneos",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q294",
+      "question": "¿Quién fue el primer hombre en el espacio?",
+      "answer": "Yuri Gagarin",
+      "options": [
+        "Yuri Gagarin",
+        "Neil Armstrong",
+        "Buzz Aldrin"
+      ],
+      "category": "miscelaneos",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q295",
+      "question": "¿Cuántos gramos hay en un kilogramo?",
+      "answer": "1000",
+      "options": [
+        "1000",
+        "100",
+        "10000"
+      ],
+      "category": "miscelaneos",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q296",
+      "question": "¿Cuál es la capital del mundo árabe más poblada?",
+      "answer": "El Cairo",
+      "options": [
+        "El Cairo",
+        "Bagdad",
+        "Riad"
+      ],
+      "category": "miscelaneos",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q297",
+      "question": "¿Cuántos pares de cromosomas tiene el ser humano?",
+      "answer": "23",
+      "options": [
+        "23",
+        "24",
+        "22"
+      ],
+      "category": "miscelaneos",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q298",
+      "question": "¿Qué científico formuló la teoría de la relatividad?",
+      "answer": "Albert Einstein",
+      "options": [
+        "Albert Einstein",
+        "Isaac Newton",
+        "Stephen Hawking"
+      ],
+      "category": "miscelaneos",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q299",
+      "question": "¿En qué continente está el desierto del Kalahari?",
+      "answer": "África",
+      "options": [
+        "África",
+        "Asia",
+        "Australia"
+      ],
+      "category": "miscelaneos",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q300",
+      "question": "¿Cuál es el gas más abundante en el aire?",
+      "answer": "Nitrógeno",
+      "options": [
+        "Nitrógeno",
+        "Oxígeno",
+        "CO₂"
+      ],
+      "category": "miscelaneos",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q301",
+      "question": "¿Qué es un fonema?",
+      "answer": "Unidad mínima de sonido",
+      "options": [
+        "Unidad mínima de sonido",
+        "Tipo de letra",
+        "Sílaba tónica"
+      ],
+      "category": "español",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q302",
+      "question": "¿Qué es la tilde diacrítica?",
+      "answer": "Acento que diferencia palabras iguales",
+      "options": [
+        "Acento que diferencia palabras iguales",
+        "Acento en sílaba tónica",
+        "Signo de puntuación"
+      ],
+      "category": "español",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q303",
+      "question": "¿Cuál es el gerundio de 'ir'?",
+      "answer": "Yendo",
+      "options": [
+        "Yendo",
+        "Iendo",
+        "Yido"
+      ],
+      "category": "español",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q304",
+      "question": "¿Qué es la sinalefa?",
+      "answer": "Unión de vocales entre palabras al leer",
+      "options": [
+        "Unión de vocales entre palabras al leer",
+        "División de sílabas",
+        "Acento poético"
+      ],
+      "category": "español",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q305",
+      "question": "¿Cuál es el plural de 'martes'?",
+      "answer": "Martes",
+      "options": [
+        "Martes",
+        "Marteses",
+        "Martés"
+      ],
+      "category": "español",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q306",
+      "question": "¿Qué es un hiato?",
+      "answer": "Dos vocales seguidas en sílabas distintas",
+      "options": [
+        "Dos vocales seguidas en sílabas distintas",
+        "Unión de sílabas",
+        "Tipo de acento"
+      ],
+      "category": "español",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q307",
+      "question": "¿Qué es el complemento directo?",
+      "answer": "Recibe directamente la acción del verbo",
+      "options": [
+        "Recibe directamente la acción del verbo",
+        "Indica lugar o tiempo",
+        "Modifica al adjetivo"
+      ],
+      "category": "español",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q308",
+      "question": "¿Cuándo se usa 'porque' junto?",
+      "answer": "Para expresar causa",
+      "options": [
+        "Para expresar causa",
+        "Para preguntar",
+        "Para expresar consecuencia"
+      ],
+      "category": "español",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q309",
+      "question": "¿Qué es la diéresis en español?",
+      "answer": "Signo sobre la u para pronunciarla en güe/güi",
+      "options": [
+        "Signo sobre la u para pronunciarla en güe/güi",
+        "Tipo de acento",
+        "Separación silábica"
+      ],
+      "category": "español",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q310",
+      "question": "¿Qué es el modo indicativo?",
+      "answer": "Expresa acciones reales o ciertas",
+      "options": [
+        "Expresa acciones reales o ciertas",
+        "Expresa dudas o deseos",
+        "Da órdenes"
+      ],
+      "category": "español",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q311",
+      "question": "¿Qué es la polisemia?",
+      "answer": "Una palabra con varios significados",
+      "options": [
+        "Una palabra con varios significados",
+        "Varias palabras con igual significado",
+        "Palabras de origen extranjero"
+      ],
+      "category": "español",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q312",
+      "question": "¿Qué es el complemento indirecto?",
+      "answer": "Indica a quién beneficia la acción",
+      "options": [
+        "Indica a quién beneficia la acción",
+        "Recibe la acción directa",
+        "Modifica al sustantivo"
+      ],
+      "category": "español",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q313",
+      "question": "¿Cuándo se pone acento a 'solo'?",
+      "answer": "Ya no es obligatorio según RAE",
+      "options": [
+        "Ya no es obligatorio según RAE",
+        "Siempre lleva acento",
+        "Solo cuando es adverbio"
+      ],
+      "category": "español",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q314",
+      "question": "¿Qué es la sinonimia?",
+      "answer": "Relación entre palabras de igual significado",
+      "options": [
+        "Relación entre palabras de igual significado",
+        "Palabras con sonido similar",
+        "Palabras del mismo origen"
+      ],
+      "category": "español",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q315",
+      "question": "¿Qué es un morfema?",
+      "answer": "Unidad mínima con significado",
+      "options": [
+        "Unidad mínima con significado",
+        "Tipo de oración",
+        "Figura literaria"
+      ],
+      "category": "español",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q316",
+      "question": "¿Qué es la rima consonante?",
+      "answer": "Coinciden vocales y consonantes desde la última vocal tónica",
+      "options": [
+        "Coinciden vocales y consonantes desde la última vocal tónica",
+        "Solo coinciden las vocales",
+        "Rima libre"
+      ],
+      "category": "español",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q317",
+      "question": "¿Qué tiempo es 'había comido'?",
+      "answer": "Pluscuamperfecto de indicativo",
+      "options": [
+        "Pluscuamperfecto de indicativo",
+        "Pretérito perfecto",
+        "Imperfecto de subjuntivo"
+      ],
+      "category": "español",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q318",
+      "question": "¿Qué es el diminutivo?",
+      "answer": "Sufijo que indica tamaño pequeño o afecto",
+      "options": [
+        "Sufijo que indica tamaño pequeño o afecto",
+        "Prefijo de negación",
+        "Aumentativo de tamaño"
+      ],
+      "category": "español",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q319",
+      "question": "¿Qué es la onomatopeya?",
+      "answer": "Palabra que imita un sonido",
+      "options": [
+        "Palabra que imita un sonido",
+        "Repetición de sonidos",
+        "Comparación literaria"
+      ],
+      "category": "español",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q320",
+      "question": "¿Qué es el vocativo?",
+      "answer": "Elemento que llama o interpela al receptor",
+      "options": [
+        "Elemento que llama o interpela al receptor",
+        "Complemento del verbo",
+        "Modificador del sustantivo"
+      ],
+      "category": "español",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q321",
+      "question": "¿Qué es la elipsis?",
+      "answer": "Omisión de elementos sobreentendidos",
+      "options": [
+        "Omisión de elementos sobreentendidos",
+        "Repetición de palabras",
+        "Inversión del orden"
+      ],
+      "category": "español",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q322",
+      "question": "¿Cuál es el antónimo de 'veloz'?",
+      "answer": "Lento",
+      "options": [
+        "Lento",
+        "Rápido",
+        "Ágil"
+      ],
+      "category": "español",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q323",
+      "question": "¿Qué es la voz pasiva?",
+      "answer": "El sujeto recibe la acción",
+      "options": [
+        "El sujeto recibe la acción",
+        "El sujeto realiza la acción",
+        "Acción reflexiva"
+      ],
+      "category": "español",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q324",
+      "question": "¿Qué es la deixis?",
+      "answer": "Señalamiento lingüístico a personas o lugares",
+      "options": [
+        "Señalamiento lingüístico a personas o lugares",
+        "Tipo de acento",
+        "Figura de repetición"
+      ],
+      "category": "español",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q325",
+      "question": "¿Qué es el léxico?",
+      "answer": "Conjunto de palabras de una lengua",
+      "options": [
+        "Conjunto de palabras de una lengua",
+        "Reglas gramaticales",
+        "Sistema de escritura"
+      ],
+      "category": "español",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q326",
+      "question": "¿Cuánto es la raíz cuadrada de 225?",
+      "answer": "15",
+      "options": [
+        "15",
+        "14",
+        "16"
+      ],
+      "category": "matematicas",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q327",
+      "question": "¿Qué es un número complejo?",
+      "answer": "Tiene parte real e imaginaria",
+      "options": [
+        "Tiene parte real e imaginaria",
+        "Es negativo",
+        "No es entero"
+      ],
+      "category": "matematicas",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q328",
+      "question": "¿Cuánto es 5! (cinco factorial)?",
+      "answer": "120",
+      "options": [
+        "120",
+        "60",
+        "100"
+      ],
+      "category": "matematicas",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q329",
+      "question": "¿Qué es la derivada en matemáticas?",
+      "answer": "Tasa de cambio instantánea",
+      "options": [
+        "Tasa de cambio instantánea",
+        "Área bajo una curva",
+        "Suma infinita"
+      ],
+      "category": "matematicas",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q330",
+      "question": "¿Cuántos lados tiene un decágono?",
+      "answer": "10",
+      "options": [
+        "10",
+        "8",
+        "12"
+      ],
+      "category": "matematicas",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q331",
+      "question": "¿Qué es el máximo común divisor?",
+      "answer": "El mayor divisor común de dos números",
+      "options": [
+        "El mayor divisor común de dos números",
+        "El menor múltiplo común",
+        "La suma de divisores"
+      ],
+      "category": "matematicas",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q332",
+      "question": "¿Cuánto es la suma de ángulos de un cuadrilátero?",
+      "answer": "360°",
+      "options": [
+        "360°",
+        "180°",
+        "270°"
+      ],
+      "category": "matematicas",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q333",
+      "question": "¿Qué es la integral definida?",
+      "answer": "Área bajo una curva en un intervalo",
+      "options": [
+        "Área bajo una curva en un intervalo",
+        "Derivada de una función",
+        "Límite de una función"
+      ],
+      "category": "matematicas",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q334",
+      "question": "¿Cuánto es 12² (doce al cuadrado)?",
+      "answer": "144",
+      "options": [
+        "144",
+        "124",
+        "148"
+      ],
+      "category": "matematicas",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q335",
+      "question": "¿Qué es un vector?",
+      "answer": "Cantidad con magnitud y dirección",
+      "options": [
+        "Cantidad con magnitud y dirección",
+        "Número complejo",
+        "Función trigonométrica"
+      ],
+      "category": "matematicas",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q336",
+      "question": "¿Cuánto es sen²(x) + cos²(x)?",
+      "answer": "1",
+      "options": [
+        "1",
+        "0",
+        "2"
+      ],
+      "category": "matematicas",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q337",
+      "question": "¿Qué es la regla de la cadena?",
+      "answer": "Derivada de función compuesta",
+      "options": [
+        "Derivada de función compuesta",
+        "Integración por partes",
+        "Teorema del valor medio"
+      ],
+      "category": "matematicas",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q338",
+      "question": "¿Cuánto es el perímetro de un cuadrado con lado 7?",
+      "answer": "28",
+      "options": [
+        "28",
+        "21",
+        "49"
+      ],
+      "category": "matematicas",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q339",
+      "question": "¿Qué es la probabilidad condicional?",
+      "answer": "Probabilidad de A dado que ocurrió B",
+      "options": [
+        "Probabilidad de A dado que ocurrió B",
+        "Suma de probabilidades",
+        "Probabilidad independiente"
+      ],
+      "category": "matematicas",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q340",
+      "question": "¿Cuánto es 25% de 80?",
+      "answer": "20",
+      "options": [
+        "20",
+        "25",
+        "15"
+      ],
+      "category": "matematicas",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q341",
+      "question": "¿Qué es la notación científica?",
+      "answer": "Expresar números como potencias de 10",
+      "options": [
+        "Expresar números como potencias de 10",
+        "Sistema hexadecimal",
+        "Notación binaria"
+      ],
+      "category": "matematicas",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q342",
+      "question": "¿Cuánto es el volumen de un cubo con lado 3?",
+      "answer": "27",
+      "options": [
+        "27",
+        "9",
+        "18"
+      ],
+      "category": "matematicas",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q343",
+      "question": "¿Qué es la función exponencial?",
+      "answer": "f(x) = aˣ donde a > 0",
+      "options": [
+        "f(x) = aˣ donde a > 0",
+        "f(x) = x²",
+        "f(x) = log(x)"
+      ],
+      "category": "matematicas",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q344",
+      "question": "¿Cuántos vértices tiene un cubo?",
+      "answer": "8",
+      "options": [
+        "8",
+        "6",
+        "12"
+      ],
+      "category": "matematicas",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q345",
+      "question": "¿Qué es el límite en cálculo?",
+      "answer": "Valor al que se aproxima una función",
+      "options": [
+        "Valor al que se aproxima una función",
+        "Máximo de una función",
+        "Punto de inflexión"
+      ],
+      "category": "matematicas",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q346",
+      "question": "¿Cuánto es 3/4 expresado en decimal?",
+      "answer": "0.75",
+      "options": [
+        "0.75",
+        "0.34",
+        "0.25"
+      ],
+      "category": "matematicas",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q347",
+      "question": "¿Qué es la desviación estándar?",
+      "answer": "Medida de dispersión de datos",
+      "options": [
+        "Medida de dispersión de datos",
+        "Valor promedio",
+        "Medida de tendencia central"
+      ],
+      "category": "matematicas",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q348",
+      "question": "¿Cuánto es la hipotenusa si los catetos son 3 y 4?",
+      "answer": "5",
+      "options": [
+        "5",
+        "7",
+        "4.5"
+      ],
+      "category": "matematicas",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q349",
+      "question": "¿Qué es una función biyectiva?",
+      "answer": "Inyectiva y sobreyectiva a la vez",
+      "options": [
+        "Inyectiva y sobreyectiva a la vez",
+        "Solo inyectiva",
+        "Función cuadrática"
+      ],
+      "category": "matematicas",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q350",
+      "question": "¿Cuánto es 2¹⁰?",
+      "answer": "1024",
+      "options": [
+        "1024",
+        "512",
+        "2048"
+      ],
+      "category": "matematicas",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q351",
+      "question": "¿Quién fue el primer hombre en orbitar la Tierra?",
+      "answer": "Yuri Gagarin",
+      "options": [
+        "Yuri Gagarin",
+        "Neil Armstrong",
+        "John Glenn"
+      ],
+      "category": "historia",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q352",
+      "question": "¿Qué imperio construyó el Coliseo romano?",
+      "answer": "Imperio Romano",
+      "options": [
+        "Imperio Romano",
+        "Imperio Griego",
+        "Imperio Persa"
+      ],
+      "category": "historia",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q353",
+      "question": "¿En qué año se publicó El Quijote?",
+      "answer": "1605",
+      "options": [
+        "1605",
+        "1580",
+        "1620"
+      ],
+      "category": "historia",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q354",
+      "question": "¿Quién fue Moctezuma II?",
+      "answer": "Último gran tlatoani azteca",
+      "options": [
+        "Último gran tlatoani azteca",
+        "Conquistador español",
+        "Rey maya"
+      ],
+      "category": "historia",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q355",
+      "question": "¿En qué año se descubrió la penicilina?",
+      "answer": "1928",
+      "options": [
+        "1928",
+        "1918",
+        "1945"
+      ],
+      "category": "historia",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q356",
+      "question": "¿Qué fue el Apartheid?",
+      "answer": "Segregación racial en Sudáfrica",
+      "options": [
+        "Segregación racial en Sudáfrica",
+        "Revolución en Zimbabwe",
+        "Colonialismo belga"
+      ],
+      "category": "historia",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q357",
+      "question": "¿Quién fue Cleopatra VII?",
+      "answer": "Última faraona del Egipto ptolemaico",
+      "options": [
+        "Última faraona del Egipto ptolemaico",
+        "Reina de Roma",
+        "Gobernante griega"
+      ],
+      "category": "historia",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q358",
+      "question": "¿En qué año ocurrió la Revolución Rusa?",
+      "answer": "1917",
+      "options": [
+        "1917",
+        "1905",
+        "1921"
+      ],
+      "category": "historia",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q359",
+      "question": "¿Qué fue la Batalla de Waterloo?",
+      "answer": "Derrota definitiva de Napoleón",
+      "options": [
+        "Derrota definitiva de Napoleón",
+        "Victoria francesa en Prusia",
+        "Batalla de la Revolución Francesa"
+      ],
+      "category": "historia",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q360",
+      "question": "¿Quién fue Benito Juárez?",
+      "answer": "Presidente de México y reformador",
+      "options": [
+        "Presidente de México y reformador",
+        "Héroe de la Independencia",
+        "Líder de la Revolución"
+      ],
+      "category": "historia",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q361",
+      "question": "¿En qué año se fundó la ciudad de Tenochtitlán?",
+      "answer": "1325",
+      "options": [
+        "1325",
+        "1428",
+        "1521"
+      ],
+      "category": "historia",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q362",
+      "question": "¿Qué fue la Conquista de México?",
+      "answer": "Sometimiento del Imperio Azteca por España",
+      "options": [
+        "Sometimiento del Imperio Azteca por España",
+        "Colonización del Caribe",
+        "Guerra entre aztecas y mayas"
+      ],
+      "category": "historia",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q363",
+      "question": "¿En qué año nació Jesucristo según el calendario?",
+      "answer": "Año 1 d.C. aproximadamente",
+      "options": [
+        "Año 1 d.C. aproximadamente",
+        "Año 100 a.C.",
+        "Año 33 d.C."
+      ],
+      "category": "historia",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q364",
+      "question": "¿Qué fue la Peste Negra?",
+      "answer": "Pandemia de peste bubónica en Europa",
+      "options": [
+        "Pandemia de peste bubónica en Europa",
+        "Guerra medieval",
+        "Hambruna europea"
+      ],
+      "category": "historia",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q365",
+      "question": "¿Quién fue Lenin?",
+      "answer": "Líder de la Revolución Rusa",
+      "options": [
+        "Líder de la Revolución Rusa",
+        "Presidente de la URSS",
+        "General zarista"
+      ],
+      "category": "historia",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q366",
+      "question": "¿En qué año se proclamó la República Mexicana?",
+      "answer": "1824",
+      "options": [
+        "1824",
+        "1821",
+        "1857"
+      ],
+      "category": "historia",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q367",
+      "question": "¿Qué fue la Guerra de Independencia de EE.UU.?",
+      "answer": "Separación de las colonias británicas",
+      "options": [
+        "Separación de las colonias británicas",
+        "Guerra civil americana",
+        "Invasión francesa"
+      ],
+      "category": "historia",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q368",
+      "question": "¿Quién fue Alejandro Magno?",
+      "answer": "Rey macedonio que conquistó Persia",
+      "options": [
+        "Rey macedonio que conquistó Persia",
+        "Filósofo griego",
+        "Emperador romano"
+      ],
+      "category": "historia",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q369",
+      "question": "¿Qué fue la Reforma Protestante?",
+      "answer": "Movimiento religioso de Lutero contra Roma",
+      "options": [
+        "Movimiento religioso de Lutero contra Roma",
+        "Revolución francesa",
+        "Cruzada medieval"
+      ],
+      "category": "historia",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q370",
+      "question": "¿En qué año fue la batalla de Lepanto?",
+      "answer": "1571",
+      "options": [
+        "1571",
+        "1492",
+        "1588"
+      ],
+      "category": "historia",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q371",
+      "question": "¿Cuál es la capital de España?",
+      "answer": "Madrid",
+      "options": [
+        "Madrid",
+        "Barcelona",
+        "Sevilla"
+      ],
+      "category": "miscelaneos",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q372",
+      "question": "¿Cuántos días tiene un año bisiesto?",
+      "answer": "366",
+      "options": [
+        "366",
+        "365",
+        "367"
+      ],
+      "category": "miscelaneos",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q373",
+      "question": "¿Quién escribió Romeo y Julieta?",
+      "answer": "Shakespeare",
+      "options": [
+        "Shakespeare",
+        "Dante",
+        "Cervantes"
+      ],
+      "category": "miscelaneos",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q374",
+      "question": "¿Cuántos minutos tiene una hora?",
+      "answer": "60",
+      "options": [
+        "60",
+        "100",
+        "50"
+      ],
+      "category": "miscelaneos",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q375",
+      "question": "¿Qué significa DNA en inglés?",
+      "answer": "Deoxyribonucleic Acid",
+      "options": [
+        "Deoxyribonucleic Acid",
+        "Dynamic Nucleic Array",
+        "Digital Network Analysis"
+      ],
+      "category": "miscelaneos",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q376",
+      "question": "¿Cuál es el planeta más cercano al sol?",
+      "answer": "Mercurio",
+      "options": [
+        "Mercurio",
+        "Venus",
+        "Tierra"
+      ],
+      "category": "miscelaneos",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q377",
+      "question": "¿Cuántos lados tiene un triángulo?",
+      "answer": "3",
+      "options": [
+        "3",
+        "4",
+        "5"
+      ],
+      "category": "miscelaneos",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q378",
+      "question": "¿En qué año se inventó el teléfono?",
+      "answer": "1876",
+      "options": [
+        "1876",
+        "1856",
+        "1896"
+      ],
+      "category": "miscelaneos",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q379",
+      "question": "¿Cuál es el hueso más largo del cuerpo humano?",
+      "answer": "Fémur",
+      "options": [
+        "Fémur",
+        "Tibia",
+        "Húmero"
+      ],
+      "category": "miscelaneos",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q380",
+      "question": "¿Quién pintó La noche estrellada?",
+      "answer": "Van Gogh",
+      "options": [
+        "Van Gogh",
+        "Monet",
+        "Picasso"
+      ],
+      "category": "miscelaneos",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q381",
+      "question": "¿Cuántas horas tiene un día?",
+      "answer": "24",
+      "options": [
+        "24",
+        "12",
+        "48"
+      ],
+      "category": "miscelaneos",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q382",
+      "question": "¿Qué instrumento mide la temperatura?",
+      "answer": "Termómetro",
+      "options": [
+        "Termómetro",
+        "Barómetro",
+        "Higrómetro"
+      ],
+      "category": "miscelaneos",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q383",
+      "question": "¿Cuántas teclas tiene un piano estándar?",
+      "answer": "88",
+      "options": [
+        "88",
+        "72",
+        "96"
+      ],
+      "category": "miscelaneos",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q384",
+      "question": "¿Qué país tiene forma de bota?",
+      "answer": "Italia",
+      "options": [
+        "Italia",
+        "España",
+        "Grecia"
+      ],
+      "category": "miscelaneos",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q385",
+      "question": "¿Cuál es el metal más abundante en la Tierra?",
+      "answer": "Aluminio",
+      "options": [
+        "Aluminio",
+        "Hierro",
+        "Cobre"
+      ],
+      "category": "miscelaneos",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q386",
+      "question": "¿Cuántos jugadores tiene un equipo de baloncesto?",
+      "answer": "5",
+      "options": [
+        "5",
+        "6",
+        "7"
+      ],
+      "category": "miscelaneos",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q387",
+      "question": "¿Qué es el efecto invernadero?",
+      "answer": "Retención de calor en la atmósfera",
+      "options": [
+        "Retención de calor en la atmósfera",
+        "Capa de ozono",
+        "Lluvia ácida"
+      ],
+      "category": "miscelaneos",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q388",
+      "question": "¿En qué año se fundó Apple?",
+      "answer": "1976",
+      "options": [
+        "1976",
+        "1984",
+        "1970"
+      ],
+      "category": "miscelaneos",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q389",
+      "question": "¿Cuántas semanas tiene un año?",
+      "answer": "52",
+      "options": [
+        "52",
+        "50",
+        "54"
+      ],
+      "category": "miscelaneos",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q390",
+      "question": "¿Qué es la inteligencia artificial?",
+      "answer": "Simulación de inteligencia humana en máquinas",
+      "options": [
+        "Simulación de inteligencia humana en máquinas",
+        "Programación avanzada",
+        "Red neuronal biológica"
+      ],
+      "category": "miscelaneos",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q391",
+      "question": "¿Cuántos sentidos tiene el ser humano básicamente?",
+      "answer": "5",
+      "options": [
+        "5",
+        "6",
+        "4"
+      ],
+      "category": "miscelaneos",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q392",
+      "question": "¿Qué es el blockchain?",
+      "answer": "Cadena de bloques de datos distribuida",
+      "options": [
+        "Cadena de bloques de datos distribuida",
+        "Tipo de algoritmo",
+        "Red social descentralizada"
+      ],
+      "category": "miscelaneos",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q393",
+      "question": "¿Cuál es la moneda de México?",
+      "answer": "Peso mexicano",
+      "options": [
+        "Peso mexicano",
+        "Dólar",
+        "Corona"
+      ],
+      "category": "miscelaneos",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q394",
+      "question": "¿Qué es el ADN mitocondrial?",
+      "answer": "ADN en las mitocondrias heredado de la madre",
+      "options": [
+        "ADN en las mitocondrias heredado de la madre",
+        "ADN del núcleo celular",
+        "ADN sexual"
+      ],
+      "category": "miscelaneos",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q395",
+      "question": "¿Cuántos meses tiene un año?",
+      "answer": "12",
+      "options": [
+        "12",
+        "10",
+        "13"
+      ],
+      "category": "miscelaneos",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q396",
+      "question": "¿Qué es la fotónica?",
+      "answer": "Ciencia que estudia partículas de luz",
+      "options": [
+        "Ciencia que estudia partículas de luz",
+        "Estudio de fotografía",
+        "Física de colores"
+      ],
+      "category": "miscelaneos",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q397",
+      "question": "¿Cuál es el órgano que bombea sangre?",
+      "answer": "Corazón",
+      "options": [
+        "Corazón",
+        "Pulmón",
+        "Hígado"
+      ],
+      "category": "miscelaneos",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q398",
+      "question": "¿Qué es la nanotecnología?",
+      "answer": "Manipulación de materia a escala nanométrica",
+      "options": [
+        "Manipulación de materia a escala nanométrica",
+        "Tecnología de miniaturización",
+        "Robótica microscópica"
+      ],
+      "category": "miscelaneos",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q399",
+      "question": "¿Cuántos continentes hay en el mundo?",
+      "answer": "7",
+      "options": [
+        "7",
+        "6",
+        "5"
+      ],
+      "category": "miscelaneos",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q400",
+      "question": "¿Qué es la computación cuántica?",
+      "answer": "Computación basada en principios cuánticos",
+      "options": [
+        "Computación basada en principios cuánticos",
+        "Supercomputación clásica",
+        "Inteligencia artificial avanzada"
+      ],
+      "category": "miscelaneos",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q401",
+      "question": "¿Cuántos lados tiene un octágono?",
+      "answer": "8",
+      "options": [
+        "8",
+        "6",
+        "10"
+      ],
+      "category": "matematicas",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q402",
+      "question": "¿Qué es la recta numérica?",
+      "answer": "Línea que representa todos los números reales",
+      "options": [
+        "Línea que representa todos los números reales",
+        "Gráfica de funciones",
+        "Escala de medición"
+      ],
+      "category": "matematicas",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q403",
+      "question": "¿Cuánto es 100 dividido entre 4?",
+      "answer": "25",
+      "options": [
+        "25",
+        "20",
+        "30"
+      ],
+      "category": "matematicas",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q404",
+      "question": "¿Qué es la geometría analítica?",
+      "answer": "Geometría usando coordenadas y álgebra",
+      "options": [
+        "Geometría usando coordenadas y álgebra",
+        "Geometría de figuras planas",
+        "Medición de ángulos"
+      ],
+      "category": "matematicas",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q405",
+      "question": "¿Cuánto es 7 + 8 × 2?",
+      "answer": "23",
+      "options": [
+        "23",
+        "30",
+        "14"
+      ],
+      "category": "matematicas",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q406",
+      "question": "¿Qué es la sucesión de Fibonacci?",
+      "answer": "Cada número es suma de los dos anteriores",
+      "options": [
+        "Cada número es suma de los dos anteriores",
+        "Serie de números primos",
+        "Progresión geométrica"
+      ],
+      "category": "matematicas",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q407",
+      "question": "¿Cuánto es la raíz cuadrada de 64?",
+      "answer": "8",
+      "options": [
+        "8",
+        "7",
+        "9"
+      ],
+      "category": "matematicas",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q408",
+      "question": "¿Qué es un número racional?",
+      "answer": "Puede expresarse como fracción p/q",
+      "options": [
+        "Puede expresarse como fracción p/q",
+        "Solo números enteros",
+        "Número mayor que cero"
+      ],
+      "category": "matematicas",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q409",
+      "question": "¿Cuánto es 15 × 15?",
+      "answer": "225",
+      "options": [
+        "225",
+        "215",
+        "230"
+      ],
+      "category": "matematicas",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q410",
+      "question": "¿Qué es la progresión aritmética?",
+      "answer": "Sucesión con diferencia constante entre términos",
+      "options": [
+        "Sucesión con diferencia constante entre términos",
+        "Serie de números pares",
+        "Sucesión de potencias"
+      ],
+      "category": "matematicas",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q411",
+      "question": "¿En qué civilización surgió la escritura cuneiforme?",
+      "answer": "Sumeria",
+      "options": [
+        "Sumeria",
+        "Egipcia",
+        "China"
+      ],
+      "category": "historia",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q412",
+      "question": "¿Quién fue Karl Marx?",
+      "answer": "Filósofo y economista creador del marxismo",
+      "options": [
+        "Filósofo y economista creador del marxismo",
+        "Líder de la Revolución Rusa",
+        "Presidente de Alemania"
+      ],
+      "category": "historia",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q413",
+      "question": "¿En qué año fue el ataque a Pearl Harbor?",
+      "answer": "1941",
+      "options": [
+        "1941",
+        "1939",
+        "1943"
+      ],
+      "category": "historia",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q414",
+      "question": "¿Qué fue la Guerra de Troya?",
+      "answer": "Conflicto entre griegos y troyanos",
+      "options": [
+        "Conflicto entre griegos y troyanos",
+        "Guerra entre Roma y Cartago",
+        "Invasión persa a Grecia"
+      ],
+      "category": "historia",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q415",
+      "question": "¿Quién fue Tutankamón?",
+      "answer": "Faraón egipcio de la XVIII dinastía",
+      "options": [
+        "Faraón egipcio de la XVIII dinastía",
+        "Rey griego",
+        "Gobernante persa"
+      ],
+      "category": "historia",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q416",
+      "question": "¿En qué año cayó Constantinopla?",
+      "answer": "1453",
+      "options": [
+        "1453",
+        "1204",
+        "1492"
+      ],
+      "category": "historia",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q417",
+      "question": "¿Qué fue la batalla de Thermópilas?",
+      "answer": "300 espartanos vs el ejército persa",
+      "options": [
+        "300 espartanos vs el ejército persa",
+        "Guerra entre Roma y Grecia",
+        "Batalla naval griega"
+      ],
+      "category": "historia",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q418",
+      "question": "¿Quién fue Nelson Mandela?",
+      "answer": "Presidente de Sudáfrica y antiapartheid",
+      "options": [
+        "Presidente de Sudáfrica y antiapartheid",
+        "Líder de Ghana",
+        "Activista de Kenya"
+      ],
+      "category": "historia",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q419",
+      "question": "¿En qué año comenzó la guerra de Vietnam?",
+      "answer": "1955",
+      "options": [
+        "1955",
+        "1964",
+        "1950"
+      ],
+      "category": "historia",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q420",
+      "question": "¿Qué fue el Tratado de Guadalupe Hidalgo?",
+      "answer": "Tratado que cedió territorio mexicano a EE.UU.",
+      "options": [
+        "Tratado que cedió territorio mexicano a EE.UU.",
+        "Tratado de paz con España",
+        "Acuerdo de independencia"
+      ],
+      "category": "historia",
+      "difficulty": "hard"
+    }
+  ]
+}
