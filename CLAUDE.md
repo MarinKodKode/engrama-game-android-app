@@ -54,7 +54,7 @@ Port a Android de Engrama, app de entrenamiento cognitivo publicada en iOS ("dej
 ## Diseño
 - No inventes estilos. Todo sale del tema: nada de colores, tamaños ni tipografías hardcodeados en pantallas.
 - Fredoka (Regular, Medium, SemiBold, Bold) en res/font, copiada del repo iOS.
-- Tokens de color derivados de los colores de sistema de iOS 17/18 (light/dark) y de los RGB inline de iOS. dynamicColor desactivado.
+- Tokens de color derivados de los colores de sistema de iOS 26 (light/dark, medidos con UIKit en simulador; valores de iOS 18 registrados en engrama-port-notes/08-cp2b-plan.md §9.2) y de los RGB inline de iOS. La app iOS mantiene deployment target 17.6. dynamicColor desactivado.
 - Apariencia: el tema lee AppSettings.appearance (system/light/dark, default system). Sin selector en la UI hasta decidir si se restaura en iOS (se perdió en el merge c014bfb del repo iOS).
 - Si falta un componente, constrúyelo con el lenguaje visual de iOS y avísame.
 
