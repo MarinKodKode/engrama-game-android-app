@@ -61,6 +61,7 @@ fun ChallengeOperationScreen(
             .fillMaxSize()
             .background(Color(0xFFF8FBFF))
             .statusBarsPadding()
+            .imePadding()
     ) {
         if (showCountdown) {
             CountdownView()

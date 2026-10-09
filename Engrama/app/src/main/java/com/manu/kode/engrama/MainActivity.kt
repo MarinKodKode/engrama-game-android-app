@@ -6,7 +6,9 @@ import androidx.activity.SystemBarStyle
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.activity.viewModels
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.navigationBarsPadding
 import androidx.compose.material3.Surface
 import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.getValue
@@ -47,8 +49,12 @@ class MainActivity : ComponentActivity() {
             EngramaTheme(appearance = appearance) {
                 // Fondo y color de contenido del tema: la ventana usa Theme.Material.Light.
                 Surface(modifier = Modifier.fillMaxSize()) {
-                    val navController = rememberNavController()
-                    EngramaNavHost(navController = navController)
+                    // Único punto para la barra de navegación (edge-to-edge): las pantallas solo
+                    // aplican statusBarsPadding() e imePadding() donde hay campo de texto.
+                    Box(modifier = Modifier.fillMaxSize().navigationBarsPadding()) {
+                        val navController = rememberNavController()
+                        EngramaNavHost(navController = navController)
+                    }
                 }
             }
         }
