@@ -1,58 +1,96 @@
 package com.manu.kode.engrama.ui.theme
 
-import android.app.Activity
-import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
+import androidx.compose.material3.ColorScheme
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.darkColorScheme
-import androidx.compose.material3.dynamicDarkColorScheme
-import androidx.compose.material3.dynamicLightColorScheme
 import androidx.compose.material3.lightColorScheme
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.platform.LocalContext
+import androidx.compose.runtime.CompositionLocalProvider
+import androidx.compose.runtime.ReadOnlyComposable
+import com.manu.kode.engrama.domain.model.AppearanceMode
 
-private val DarkColorScheme = darkColorScheme(
-    primary = Purple80,
-    secondary = PurpleGrey80,
-    tertiary = Pink80
-)
+/** Resuelve si el tema es oscuro según la apariencia guardada (iOS AppSettings.appearance). */
+@Composable
+fun AppearanceMode.isDark(): Boolean = when (this) {
+    AppearanceMode.SYSTEM -> isSystemInDarkTheme()
+    AppearanceMode.LIGHT -> false
+    AppearanceMode.DARK -> true
+}
 
-private val LightColorScheme = lightColorScheme(
-    primary = Purple40,
-    secondary = PurpleGrey40,
-    tertiary = Pink40
-
-    /* Other default colors to override
-    background = Color(0xFFFFFBFE),
-    surface = Color(0xFFFFFBFE),
-    onPrimary = Color.White,
-    onSecondary = Color.White,
-    onTertiary = Color.White,
-    onBackground = Color(0xFF1C1B1F),
-    onSurface = Color(0xFF1C1B1F),
-    */
-)
+/**
+ * Roles de Material3 derivados de los tokens iOS, para que los componentes M3
+ * (Button, FilterChip, Switch, AlertDialog…) no usen la paleta base morada.
+ * Mapeo en engrama-port-notes/08-cp2b-plan.md §9.3.
+ *
+ * Los roles `*Fixed` / `*FixedDim` (primaryFixed, onPrimaryFixed…) no se mapean a propósito:
+ * conservan la paleta base de M3. Ningún componente de la app los usa; si alguno los
+ * necesita, se mapean entonces.
+ */
+internal fun EngramaColors.toColorScheme(dark: Boolean): ColorScheme {
+    val accentContainer = blue.copy(alpha = ACCENT_CONTAINER_ALPHA)
+    val base = if (dark) darkColorScheme() else lightColorScheme()
+    return base.copy(
+        primary = blue,
+        onPrimary = white,
+        primaryContainer = accentContainer,
+        onPrimaryContainer = blue,
+        inversePrimary = blue,
+        secondary = gray,
+        onSecondary = white,
+        secondaryContainer = secondaryBackground,
+        onSecondaryContainer = label,
+        tertiary = blue,
+        onTertiary = white,
+        tertiaryContainer = accentContainer,
+        onTertiaryContainer = blue,
+        background = background,
+        onBackground = label,
+        surface = background,
+        onSurface = label,
+        surfaceVariant = secondaryBackground,
+        onSurfaceVariant = secondaryLabel,
+        surfaceTint = background,
+        inverseSurface = label,
+        inverseOnSurface = background,
+        error = red,
+        onError = white,
+        errorContainer = red.copy(alpha = ACCENT_CONTAINER_ALPHA),
+        onErrorContainer = red,
+        outline = tertiaryLabel,
+        outlineVariant = tertiaryLabel,
+        scrim = black,
+        surfaceBright = background,
+        surfaceDim = secondaryBackground,
+        surfaceContainerLowest = background,
+        surfaceContainerLow = secondaryBackground,
+        surfaceContainer = secondaryBackground,
+        surfaceContainerHigh = secondaryBackground,
+        surfaceContainerHighest = secondaryBackground,
+    )
+}
 
 @Composable
 fun EngramaTheme(
-    darkTheme: Boolean = isSystemInDarkTheme(),
-    // Dynamic color is available on Android 12+
-    dynamicColor: Boolean = true,
+    appearance: AppearanceMode = AppearanceMode.SYSTEM,
     content: @Composable () -> Unit
 ) {
-    val colorScheme = when {
-        dynamicColor && Build.VERSION.SDK_INT >= Build.VERSION_CODES.S -> {
-            val context = LocalContext.current
-            if (darkTheme) dynamicDarkColorScheme(context) else dynamicLightColorScheme(context)
-        }
+    val dark = appearance.isDark()
+    val colors = if (dark) DarkEngramaColors else LightEngramaColors
 
-        darkTheme -> DarkColorScheme
-        else -> LightColorScheme
+    CompositionLocalProvider(LocalEngramaColors provides colors) {
+        MaterialTheme(
+            colorScheme = colors.toColorScheme(dark),
+            typography = Typography,
+            content = content
+        )
     }
+}
 
-    MaterialTheme(
-        colorScheme = colorScheme,
-        typography = Typography,
-        content = content
-    )
+/** Acceso a los tokens: `EngramaTheme.colors.blue`. */
+object EngramaTheme {
+    val colors: EngramaColors
+        @Composable
+        @ReadOnlyComposable
+        get() = LocalEngramaColors.current
 }
