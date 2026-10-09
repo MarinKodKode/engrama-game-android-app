@@ -1,23 +1,24 @@
 package com.manu.kode.engrama.features.home
 
+import androidx.compose.foundation.Image
 import androidx.compose.foundation.clickable
-import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.statusBarsPadding
 import androidx.compose.foundation.rememberScrollState
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
-import androidx.compose.material3.*
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.collectAsState
-import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.clip
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
-import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.unit.dp
-import androidx.compose.ui.unit.sp
-import androidx.hilt.lifecycle.viewmodel.compose.hiltViewModel
+import androidx.compose.ui.semantics.Role
 import androidx.navigation.NavHostController
 import com.manu.kode.engrama.R
 import com.manu.kode.engrama.navigation.Analytics
@@ -25,192 +26,123 @@ import com.manu.kode.engrama.navigation.ChooseOperation
 import com.manu.kode.engrama.navigation.Settings
 import com.manu.kode.engrama.navigation.TriviaChallenge
 import com.manu.kode.engrama.navigation.WordChallenge
+import com.manu.kode.engrama.ui.theme.Dimens
+import com.manu.kode.engrama.ui.theme.EngramaTheme
 
+/**
+ * iOS `HomeView`. El padding de la barra de navegación lo aplica MainActivity;
+ * aquí solo se aplica el de la barra de estado.
+ */
 @Composable
-fun HomeScreen(
-    navController: NavHostController,
-    viewModel: HomeViewModel = hiltViewModel()
-) {
-    val settings by viewModel.settings.collectAsState()
+fun HomeScreen(navController: NavHostController) {
+    val colors = EngramaTheme.colors
 
     Column(
         modifier = Modifier
             .fillMaxSize()
             .statusBarsPadding()
     ) {
-        // Header
         Row(
             modifier = Modifier
                 .fillMaxWidth()
-                .padding(horizontal = 16.dp, vertical = 8.dp),
+                .padding(horizontal = Dimens.homeTopBarHorizontal)
+                .padding(top = Dimens.homeTopBarTop),
             horizontalArrangement = Arrangement.SpaceBetween,
             verticalAlignment = Alignment.CenterVertically
         ) {
-            IconButton(onClick = { navController.navigate(Analytics) }) {
-                Icon(
-                    painter = painterResource(R.drawable.ic_analytics),
-                    contentDescription = "Analytics",
-                    tint = Color.Unspecified,
-                    modifier = Modifier.size(36.dp)
-                )
-            }
-            IconButton(onClick = { navController.navigate(Settings) }) {
-                Icon(
-                    painter = painterResource(R.drawable.ic_settings),
-                    contentDescription = "Settings",
-                    tint = Color.Unspecified,
-                    modifier = Modifier.size(36.dp)
-                )
-            }
+            Image(
+                painter = painterResource(R.drawable.home_analytics),
+                contentDescription = "Analytics",
+                modifier = Modifier
+                    .clickable(role = Role.Button) { navController.navigate(Analytics) }
+                    .padding(start = Dimens.homeTopBarImageInset)
+                    .size(Dimens.homeTopBarImage)
+            )
+            Image(
+                painter = painterResource(R.drawable.home_settings),
+                contentDescription = "Settings",
+                modifier = Modifier
+                    .clickable(role = Role.Button) { navController.navigate(Settings) }
+                    .padding(end = Dimens.homeTopBarImageInset)
+                    .size(Dimens.homeTopBarImage)
+            )
         }
 
         Column(
             modifier = Modifier
                 .fillMaxSize()
                 .verticalScroll(rememberScrollState())
-                .padding(horizontal = 20.dp, vertical = 24.dp),
-            verticalArrangement = Arrangement.spacedBy(28.dp)
+                .padding(horizontal = Dimens.homeContentHorizontal)
+                .padding(top = Dimens.homeContentTop),
+            verticalArrangement = Arrangement.spacedBy(Dimens.homeSectionSpacing)
         ) {
-            // Logo + nombre
             Column(
-                modifier = Modifier.fillMaxWidth(),
-                horizontalAlignment = Alignment.CenterHorizontally
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(bottom = Dimens.homeHeaderBottom),
+                horizontalAlignment = Alignment.CenterHorizontally,
+                verticalArrangement = Arrangement.spacedBy(Dimens.homeLogoTitleSpacing)
             ) {
+                Image(
+                    painter = painterResource(R.drawable.launch_icon),
+                    contentDescription = null,
+                    modifier = Modifier.size(Dimens.homeLogo)
+                )
                 Text(
                     text = "Engrama",
-                    fontSize = 36.sp,
-                    fontWeight = FontWeight.Bold,
-                    color = MaterialTheme.colorScheme.primary
+                    style = MaterialTheme.typography.displaySmall,
+                    color = colors.blue
                 )
             }
 
-            // Sección Lenguaje
-            HomeSectionView(title = "Lenguaje") {
-                HomeMenuRow(
-                    icon = "Abc",
+            SectionMenu(title = "Lenguaje") {
+                MenuRow(
+                    icon = R.drawable.ic_home_language,
                     label = "Reto tipo de palabra",
                     subtitle = "Identifica verbos, adjetivos y más",
-                    color = Color(0xFF9C27B0)
-                ) {
-                    navController.navigate(WordChallenge)
-                }
+                    color = colors.purple
+                ) { navController.navigate(WordChallenge) }
             }
 
-            // Sección Matemáticas
-            HomeSectionView(title = "Matemáticas") {
-                HomeMenuRow(
-                    icon = "±",
+            SectionMenu(title = "Matemáticas") {
+                MenuRow(
+                    icon = R.drawable.ic_home_math,
                     label = "Reto cálculo mental",
                     subtitle = "Suma, resta, multiplica y divide",
-                    color = Color(0xFF00BCD4)
-                ) {
-                    navController.navigate(ChooseOperation)
-                }
+                    color = colors.cyan
+                ) { navController.navigate(ChooseOperation) }
             }
 
-            // Sección Trivia
-            HomeSectionView(title = "Trivia") {
-                HomeMenuRow(
-                    icon = "?",
+            SectionMenu(title = "Trivia") {
+                MenuRow(
+                    icon = R.drawable.ic_home_trivia,
                     label = "Reto de cultura general",
                     subtitle = "Química, historia, geografía y más",
-                    color = Color(0xFFFF9800)
-                ) {
-                    navController.navigate(TriviaChallenge)
-                }
-            }
-        }
-    }
-}
-
-@Composable
-fun HomeSectionView(
-    title: String,
-    content: @Composable () -> Unit
-) {
-    Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
-        Text(
-            text = title,
-            fontSize = 18.sp,
-            fontWeight = FontWeight.SemiBold,
-            color = MaterialTheme.colorScheme.onSurfaceVariant,
-            modifier = Modifier.padding(start = 4.dp)
-        )
-        content()
-    }
-}
-
-@Composable
-fun HomeMenuRow(
-    icon: String,
-    label: String,
-    subtitle: String,
-    color: Color,
-    onClick: () -> Unit
-) {
-    Card(
-        modifier = Modifier
-            .fillMaxWidth()
-            .clickable { onClick() },
-        shape = RoundedCornerShape(16.dp),
-        colors = CardDefaults.cardColors(
-            containerColor = MaterialTheme.colorScheme.surface
-        ),
-        elevation = CardDefaults.cardElevation(defaultElevation = 2.dp)
-    ) {
-        Row(
-            modifier = Modifier
-                .fillMaxWidth()
-                .padding(16.dp),
-            verticalAlignment = Alignment.CenterVertically,
-            horizontalArrangement = Arrangement.spacedBy(16.dp)
-        ) {
-            // Ícono
-            Box(
-                modifier = Modifier
-                    .size(52.dp)
-                    .clip(RoundedCornerShape(12.dp))
-                    .padding(2.dp),
-                contentAlignment = Alignment.Center
-            ) {
-                Surface(
-                    modifier = Modifier.fillMaxSize(),
-                    color = color.copy(alpha = 0.15f),
-                    shape = RoundedCornerShape(12.dp)
-                ) {
-                    Box(contentAlignment = Alignment.Center) {
-                        Text(
-                            text = icon,
-                            fontSize = 22.sp,
-                            color = color,
-                            fontWeight = FontWeight.Bold
-                        )
-                    }
-                }
+                    color = colors.orange
+                ) { navController.navigate(TriviaChallenge) }
             }
 
-            // Texto
-            Column(modifier = Modifier.weight(1f)) {
-                Text(
-                    text = label,
-                    fontSize = 16.sp,
-                    fontWeight = FontWeight.SemiBold,
-                    color = MaterialTheme.colorScheme.onSurface
-                )
-                Text(
-                    text = subtitle,
-                    fontSize = 13.sp,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant
-                )
+            // Flashcards aún no portado: fila deshabilitada.
+            SectionMenu(title = "Estudio") {
+                MenuRow(
+                    icon = R.drawable.ic_home_study,
+                    label = "Tarjetas de estudio",
+                    subtitle = "Crea mazos, practica y repasa con SM-2",
+                    color = colors.green,
+                    enabled = false
+                ) {}
             }
 
-            // Chevron
-            Icon(
-                painter = painterResource(android.R.drawable.ic_media_next),
-                contentDescription = null,
-                tint = MaterialTheme.colorScheme.onSurfaceVariant.copy(alpha = 0.5f),
-                modifier = Modifier.size(16.dp)
-            )
+            // Perfil de Aprendizaje aún no portado: fila deshabilitada.
+            SectionMenu(title = "Perfil de Aprendizaje") {
+                MenuRow(
+                    icon = R.drawable.ic_home_learning_profile,
+                    label = "Test CHAEA y VAK",
+                    subtitle = "Descubre tu estilo de aprendizaje",
+                    color = colors.indigo,
+                    enabled = false
+                ) {}
+            }
         }
     }
 }

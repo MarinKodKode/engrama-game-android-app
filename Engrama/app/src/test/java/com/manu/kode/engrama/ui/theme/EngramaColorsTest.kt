@@ -22,7 +22,7 @@ class EngramaColorsTest {
         "indigo" to indigo, "pink" to pink, "background" to background,
         "secondaryBackground" to secondaryBackground, "groupedBackground" to groupedBackground,
         "label" to label, "secondaryLabel" to secondaryLabel, "tertiaryLabel" to tertiaryLabel,
-        "white" to white, "black" to black,
+        "white" to white, "black" to black, "cardShadow" to cardShadow,
     ).mapValues { hex(it.value) }
 
     @Test
@@ -35,7 +35,7 @@ class EngramaColorsTest {
                 "indigo" to "FF6155F5", "pink" to "FFFF2D55", "background" to "FFFFFFFF",
                 "secondaryBackground" to "FFF2F2F7", "groupedBackground" to "FFF2F2F7",
                 "label" to "FF000000", "secondaryLabel" to "993C3C43", "tertiaryLabel" to "4C3C3C43",
-                "white" to "FFFFFFFF", "black" to "FF000000",
+                "white" to "FFFFFFFF", "black" to "FF000000", "cardShadow" to "0F000000",
             ),
             LightEngramaColors.asMap()
         )
@@ -51,7 +51,7 @@ class EngramaColorsTest {
                 "indigo" to "FF6B5DFF", "pink" to "FFFF375F", "background" to "FF000000",
                 "secondaryBackground" to "FF1C1C1E", "groupedBackground" to "FF000000",
                 "label" to "FFFFFFFF", "secondaryLabel" to "99EBEBF5", "tertiaryLabel" to "4CEBEBF5",
-                "white" to "FFFFFFFF", "black" to "FF000000",
+                "white" to "FFFFFFFF", "black" to "FF000000", "cardShadow" to "0F000000",
             ),
             DarkEngramaColors.asMap()
         )

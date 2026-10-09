@@ -35,6 +35,7 @@ data class EngramaColors(
     val tertiaryLabel: Color,       // tertiaryLabel / .tertiary
     val white: Color,
     val black: Color,
+    val cardShadow: Color,          // .black.opacity(0.06) (HomeView MenuRowView)
 )
 
 val LightEngramaColors = EngramaColors(
@@ -57,6 +58,7 @@ val LightEngramaColors = EngramaColors(
     tertiaryLabel = Color(0x4C3C3C43),
     white = Color(0xFFFFFFFF),
     black = Color(0xFF000000),
+    cardShadow = Color.Black.copy(alpha = 0.06f),
 )
 
 val DarkEngramaColors = EngramaColors(
@@ -79,9 +81,21 @@ val DarkEngramaColors = EngramaColors(
     tertiaryLabel = Color(0x4CEBEBF5),
     white = Color(0xFFFFFFFF),
     black = Color(0xFF000000),
+    cardShadow = Color.Black.copy(alpha = 0.06f),
 )
 
 /** Opacidad del fondo de un color de acento (patrón iOS `color.opacity(0.15)`). */
 const val ACCENT_CONTAINER_ALPHA = 0.15f
+
+/**
+ * Dentro de un `Button` de SwiftUI con estilo por defecto, `.primary`/`.secondary`/`.tertiary`
+ * se resuelven sobre el tinte (accent = blue), no sobre label. Opacidades medidas en una captura
+ * del simulador iOS 26 (HomeView, modo claro): secundario 50 %, terciario 25 %.
+ */
+const val TINT_SECONDARY_ALPHA = 0.5f
+const val TINT_TERTIARY_ALPHA = 0.25f
+
+/** Opacidad del contenido deshabilitado (valor estándar de Material3; iOS no lo fija). */
+const val DISABLED_CONTENT_ALPHA = 0.38f
 
 val LocalEngramaColors = staticCompositionLocalOf { LightEngramaColors }
