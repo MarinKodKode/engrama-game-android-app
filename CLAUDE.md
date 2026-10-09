@@ -14,21 +14,28 @@ Port a Android de Engrama, app de entrenamiento cognitivo publicada en iOS ("dej
 - Al iniciar una sesión, lee los archivos de esa carpeta en orden numérico antes de trabajar.
 - Cada reporte de auditoría o cierre de fase se guarda ahí como NN-nombre.md, y en el chat solo va el resumen ejecutivo.
 
-## Ramas Android (estado al 2026-10-08)
-- main (3b6d409): esqueleto inicial; no compila. Auditado en 01-auditoria-main.md.
-- develop: rama de trabajo real (Math, Word Type, Trivia, Analytics, Settings, datasets). Base para continuar.
-- fase0/cp1-build-main (solo local): migración de build a AGP 9.4.1 / Gradle 9.7.1 / Kotlin 2.4.20 hecha sobre main. Es referencia; NO se mergea tal cual.
+## Ramas Android (estado al 2026-10-09)
+- develop (d4d934f): única rama de trabajo.
+- main: rama de release, atrasada; se pone al día con un PR develop → main.
 
 ## Reglas de trabajo (obligatorias)
 1. Plan antes de código: en toda tarea, primero muestra el plan de archivos (crear/modificar/borrar) y tus dudas. No implementes hasta que yo lo apruebe explícitamente.
 2. Por fases: no avances a la siguiente fase o checkpoint sin que el actual compile limpio y yo lo valide.
-3. Git: NUNCA hagas add, commit, push, fetch, pull, stash, rebase, merge, reset, cherry-pick ni cambies de rama. Deja los cambios sin stagear. Solo git de lectura (status, diff, log, show, branch, ls-files, ls-tree, merge-base, rev-list, for-each-ref, check-ignore).
+3. Git (regla permanente desde 2026-10-09):
+   - Todo el trabajo se hace en develop. No crees ramas, no hagas checkout a otras ramas ni uses worktrees, salvo que yo lo pida explícitamente en ese mensaje.
+   - Antes de empezar cualquier tarea, confirma con `git branch --show-current` que estás en develop. Si no, detente y avísame; no cambies de rama por tu cuenta.
+   - Commits solo cuando yo diga "commitea": directo en develop, un commit por sub-paso validado, con mensaje claro. Hasta entonces, cambios sin stagear.
+   - NUNCA push, merge, fetch, pull, stash, rebase, reset, cherry-pick ni borrar ramas o tags sin una orden mía explícita en ese mensaje.
+   - Tags de hito (p. ej. cp2b-home-done) en lugar de ramas, y solo si yo los pido.
+   - En diagnósticos, solo git de lectura pura (status, diff, log, show, branch, tag -l, ls-files, ls-tree, merge-base, rev-list, rev-parse, for-each-ref, check-ignore, reflog, stash list/show). Si necesitas otro comando, pídelo antes.
+   - El repo iOS sigue siendo solo lectura.
 4. Firebase: NUNCA hagas deploy ni uses Firebase CLI. Si un cambio requiere modificar firestore.rules o firestore.indexes.json, muéstrame el diff propuesto y detente.
 5. Cambios no planeados: si necesitas tocar algo fuera del plan aprobado, detente y pide aprobación. Al cerrar cada tarea, lista explícitamente las desviaciones.
 6. Dependencias: no agregues ni cambies versiones sin aprobación.
 7. No asumas el estado del repo, de mis acciones ni de mis máquinas: verifícalo. Si un mensaje mío afirma algo que no cuadra con lo que ves, repórtalo antes de seguir.
 8. Si algo no lo verificaste, márcalo como "no verificado".
 9. Idioma: español, directo, sin explicar lo básico.
+10. Builds y tests: siempre con JBR 17.0.9 (`JAVA_HOME=/Users/mhernandezm/Library/Java/JavaVirtualMachines/jbr-17.0.9/Contents/Home`, solo como variable del comando) y `./gradlew`. Nunca con el JBR de Android Studio.
 
 ## Stack objetivo (Fase 0)
 - Gradle 9.7.1 (con distributionSha256Sum), AGP 9.4.1 con Kotlin integrado, Kotlin 2.4.20, KSP 2.3.12 (sin kapt).
