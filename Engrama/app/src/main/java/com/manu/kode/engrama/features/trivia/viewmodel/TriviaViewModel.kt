@@ -1,33 +1,33 @@
 package com.manu.kode.engrama.features.trivia.viewmodel
 
-import android.content.Context
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.google.gson.Gson
-import com.google.gson.reflect.TypeToken
 import com.manu.kode.engrama.core.haptic.HapticManager
 import com.manu.kode.engrama.core.haptic.SoundManager
-import com.manu.kode.engrama.data.model.GameSession
-import com.manu.kode.engrama.data.model.GameType
-import com.manu.kode.engrama.data.model.TriviaBank
-import com.manu.kode.engrama.data.model.TriviaQuestion
-import com.manu.kode.engrama.data.store.SessionStore
-import com.manu.kode.engrama.data.store.SettingsStore
+import com.manu.kode.engrama.data.dataset.DatasetRepository
+import com.manu.kode.engrama.data.repository.SessionRepository
+import com.manu.kode.engrama.data.repository.SettingsRepository
+import com.manu.kode.engrama.domain.model.GameOperation
+import com.manu.kode.engrama.domain.model.GameSession
+import com.manu.kode.engrama.domain.model.GameType
+import com.manu.kode.engrama.domain.model.TriviaCategory
+import com.manu.kode.engrama.domain.model.TriviaDifficulty
+import com.manu.kode.engrama.domain.model.TriviaQuestion
 import dagger.hilt.android.lifecycle.HiltViewModel
-import dagger.hilt.android.qualifiers.ApplicationContext
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
 @HiltViewModel
 class TriviaViewModel @Inject constructor(
-    @ApplicationContext private val context: Context,
-    private val settingsStore: SettingsStore,
-    private val sessionStore: SessionStore,
+    private val settingsRepository: SettingsRepository,
+    private val sessionRepository: SessionRepository,
+    private val datasetRepository: DatasetRepository,
     private val hapticManager: HapticManager,
     private val soundManager: SoundManager
 ) : ViewModel() {
@@ -62,31 +62,29 @@ class TriviaViewModel @Inject constructor(
     val progress: Float get() = _timeLeft.value.toFloat() / totalTime.toFloat()
 
     fun init() {
-        val settings = settingsStore.settings.value
-        totalTime = settings.trivia.timeLimit
-        hapticEnabled = settings.hapticOnError
-        _timeLeft.value = totalTime
-        loadQuestions(
-            activeCategories = settings.trivia.activeCategories,
-            difficulty = settings.trivia.difficulty
-        )
-        startCountdown()
+        viewModelScope.launch {
+            val settings = settingsRepository.settings.first()
+            totalTime = settings.trivia.timeLimit
+            hapticEnabled = settings.hapticOnError
+            _timeLeft.value = totalTime
+            loadQuestions(
+                activeCategories = settings.trivia.activeCategories,
+                difficulty = settings.trivia.difficulty
+            )
+            startCountdown()
+        }
     }
 
-    private fun loadQuestions(activeCategories: List<String>, difficulty: String) {
-        try {
-            val json = context.assets.open("trivia.json")
-                .bufferedReader()
-                .use { it.readText() }
-            val bank: TriviaBank = Gson().fromJson(json, TriviaBank::class.java)
-            allQuestions = bank.questions
+    private suspend fun loadQuestions(activeCategories: List<TriviaCategory>, difficulty: TriviaDifficulty) {
+        allQuestions = try {
+            datasetRepository.trivia()
                 .filter {
                     activeCategories.contains(it.category) &&
                             it.difficulty == difficulty
                 }
                 .shuffled()
         } catch (e: Exception) {
-            allQuestions = emptyList()
+            emptyList()
         }
     }
 
@@ -172,11 +170,11 @@ class TriviaViewModel @Inject constructor(
 
         val session = GameSession(
             gameType = GameType.TRIVIA,
-            operation = "trivia",
+            operation = GameOperation.TRIVIA,
             score = _score.value,
             timeLimit = totalTime
         )
-        sessionStore.addSession(session)
+        viewModelScope.launch { sessionRepository.add(session) }
         _gameOver.value = true
     }
 

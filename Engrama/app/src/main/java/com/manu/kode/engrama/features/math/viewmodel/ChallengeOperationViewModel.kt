@@ -4,9 +4,11 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.manu.kode.engrama.core.haptic.HapticManager
 import com.manu.kode.engrama.core.haptic.SoundManager
-import com.manu.kode.engrama.data.model.GameSession
-import com.manu.kode.engrama.data.model.GameType
-import com.manu.kode.engrama.data.store.SessionStore
+import com.manu.kode.engrama.data.repository.SessionRepository
+import com.manu.kode.engrama.domain.model.GameOperation
+import com.manu.kode.engrama.domain.model.GameSession
+import com.manu.kode.engrama.domain.model.GameType
+import com.manu.kode.engrama.domain.model.fromRaw
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay
@@ -18,7 +20,7 @@ import javax.inject.Inject
 
 @HiltViewModel
 class ChallengeOperationViewModel @Inject constructor(
-    private val sessionStore: SessionStore,
+    private val sessionRepository: SessionRepository,
     private val hapticManager: HapticManager,
     private val soundManager: SoundManager
 ) : ViewModel() {
@@ -149,14 +151,15 @@ class ChallengeOperationViewModel @Inject constructor(
         timerJob?.cancel()
         soundManager.play(SoundManager.GameSound.SOUND_7)
 
+        val operation = checkNotNull(fromRaw<GameOperation>(sign)) { "Operación de Math desconocida: $sign" }
         val session = GameSession(
             gameType = GameType.MATH,
-            operation = sign,
+            operation = operation,
             score = _score.value,
             timeLimit = totalTime,
             numberOfDigits = digits
         )
-        sessionStore.addSession(session)
+        viewModelScope.launch { sessionRepository.add(session) }
         _gameOver.value = true
     }
 

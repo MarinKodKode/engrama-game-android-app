@@ -2,9 +2,9 @@ package com.manu.kode.engrama.features.analytics.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.manu.kode.engrama.data.model.GameSession
-import com.manu.kode.engrama.data.model.GameType
-import com.manu.kode.engrama.data.store.SessionStore
+import com.manu.kode.engrama.data.repository.SessionRepository
+import com.manu.kode.engrama.domain.model.GameSession
+import com.manu.kode.engrama.domain.model.GameType
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
@@ -17,13 +17,13 @@ import kotlinx.coroutines.flow.map
 
 @HiltViewModel
 class AnalyticsViewModel @Inject constructor(
-    private val sessionStore: SessionStore
+    sessionRepository: SessionRepository
 ) : ViewModel() {
 
     private val _selectedFilter = MutableStateFlow<GameType?>(null)
     val selectedFilter: StateFlow<GameType?> = _selectedFilter.asStateFlow()
 
-    val sessions: StateFlow<List<GameSession>> = sessionStore.sessions
+    val sessions: StateFlow<List<GameSession>> = sessionRepository.sessions
         .stateIn(
             scope = viewModelScope,
             started = SharingStarted.WhileSubscribed(5000),

@@ -16,9 +16,9 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.hilt.lifecycle.viewmodel.compose.hiltViewModel
 import androidx.navigation.NavHostController
-import com.manu.kode.engrama.data.model.color
-import com.manu.kode.engrama.data.model.emoji
 import com.manu.kode.engrama.features.settings.viewmodel.SettingsViewModel
+import com.manu.kode.engrama.ui.division.color
+import com.manu.kode.engrama.ui.division.emoji
 
 @Composable
 fun SettingsScreen(
@@ -26,6 +26,7 @@ fun SettingsScreen(
     viewModel: SettingsViewModel = hiltViewModel()
 ) {
     val settings by viewModel.settings.collectAsState()
+    val playerProgress by viewModel.playerProgress.collectAsState()
     var showNameDialog by remember { mutableStateOf(false) }
     var nameInput by remember { mutableStateOf(settings.profile.name) }
 
@@ -62,14 +63,14 @@ fun SettingsScreen(
                 modifier = Modifier.fillMaxWidth(),
                 shape = RoundedCornerShape(16.dp),
                 colors = CardDefaults.cardColors(
-                    containerColor = viewModel.currentDivision.color().copy(alpha = 0.15f)
+                    containerColor = playerProgress.division.color().copy(alpha = 0.15f)
                 ),
                 onClick = { showNameDialog = true }
             ) {
                 Box {
                     // Planeta fondo
                     Text(
-                        text = viewModel.currentDivision.emoji(),
+                        text = playerProgress.division.emoji(),
                         fontSize = 80.sp,
                         modifier = Modifier
                             .align(Alignment.TopEnd)
@@ -99,7 +100,7 @@ fun SettingsScreen(
                                 fontWeight = FontWeight.SemiBold
                             )
                             Text(
-                                text = viewModel.currentDivision.displayName,
+                                text = playerProgress.division.rawValue,
                                 fontSize = 16.sp,
                                 color = Color.Gray
                             )
@@ -108,7 +109,7 @@ fun SettingsScreen(
                 }
 
                 // Barra de progreso
-                viewModel.currentDivision.next?.let { next ->
+                playerProgress.division.next?.let { next ->
                     Column(
                         modifier = Modifier.padding(
                             start = 16.dp, end = 16.dp, bottom = 16.dp
@@ -120,23 +121,23 @@ fun SettingsScreen(
                             horizontalArrangement = Arrangement.SpaceBetween
                         ) {
                             Text(
-                                text = "Hacia ${next.displayName}",
+                                text = "Hacia ${next.rawValue}",
                                 fontSize = 13.sp,
                                 color = Color.Gray
                             )
                             Text(
-                                text = "${viewModel.pointsToNext} pts restantes",
+                                text = "${playerProgress.pointsToNext} pts restantes",
                                 fontSize = 13.sp,
                                 color = Color.Gray
                             )
                         }
                         LinearProgressIndicator(
-                            progress = { viewModel.progress },
+                            progress = { playerProgress.progress.toFloat() },
                             modifier = Modifier
                                 .fillMaxWidth()
                                 .height(10.dp)
                                 .clip(RoundedCornerShape(8.dp)),
-                            color = viewModel.currentDivision.color(),
+                            color = playerProgress.division.color(),
                             trackColor = Color.Gray.copy(alpha = 0.15f)
                         )
                         Row(
@@ -144,7 +145,7 @@ fun SettingsScreen(
                             horizontalArrangement = Arrangement.SpaceBetween
                         ) {
                             Text(
-                                text = "${viewModel.totalPoints} pts totales",
+                                text = "${playerProgress.totalPoints} pts totales",
                                 fontSize = 12.sp,
                                 color = Color.Gray.copy(alpha = 0.7f)
                             )
@@ -219,7 +220,7 @@ fun SettingsScreen(
                     difficultyOptions.forEach { (key, label) ->
                         FilterButton(
                             label = label,
-                            isSelected = settings.trivia.difficulty == key,
+                            isSelected = settings.trivia.difficulty.rawValue == key,
                             onClick = { viewModel.updateTriviaDifficulty(key) }
                         )
                     }

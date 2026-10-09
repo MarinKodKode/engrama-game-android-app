@@ -1,41 +1,31 @@
 package com.manu.kode.engrama.features.language.viewmodel
 
-import android.content.Context
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.google.gson.Gson
-import com.google.gson.reflect.TypeToken
 import com.manu.kode.engrama.core.haptic.HapticManager
 import com.manu.kode.engrama.core.haptic.SoundManager
-import com.manu.kode.engrama.data.model.GameSession
-import com.manu.kode.engrama.data.model.GameType
-import com.manu.kode.engrama.data.store.SessionStore
-import com.manu.kode.engrama.data.store.SettingsStore
+import com.manu.kode.engrama.data.dataset.DatasetRepository
+import com.manu.kode.engrama.data.repository.SessionRepository
+import com.manu.kode.engrama.data.repository.SettingsRepository
+import com.manu.kode.engrama.domain.model.GameOperation
+import com.manu.kode.engrama.domain.model.GameSession
+import com.manu.kode.engrama.domain.model.GameType
+import com.manu.kode.engrama.domain.model.WordEntry
 import dagger.hilt.android.lifecycle.HiltViewModel
-import dagger.hilt.android.qualifiers.ApplicationContext
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
-data class WordEntry(
-    val word: String,
-    val category: String,
-    val difficulty: String
-)
-
-data class WordBank(
-    val words: List<WordEntry>
-)
-
 @HiltViewModel
 class WordChallengeViewModel @Inject constructor(
-    @ApplicationContext private val context: Context,
-    private val settingsStore: SettingsStore,
-    private val sessionStore: SessionStore,
+    private val settingsRepository: SettingsRepository,
+    private val sessionRepository: SessionRepository,
+    private val datasetRepository: DatasetRepository,
     private val hapticManager: HapticManager,
     private val soundManager: SoundManager
 ) : ViewModel() {
@@ -73,27 +63,24 @@ class WordChallengeViewModel @Inject constructor(
     val progress: Float get() = _timeLeft.value.toFloat() / totalTime.toFloat()
 
     fun init() {
-        val settings = settingsStore.settings.value
-        totalTime = settings.spanish.timeLimit
-        hapticEnabled = settings.hapticOnError
-        _activeCategories.value = settings.spanish.activeCategories
-        _timeLeft.value = totalTime
-        loadWords()
-        startCountdown()
+        viewModelScope.launch {
+            val settings = settingsRepository.settings.first()
+            totalTime = settings.spanish.timeLimit
+            hapticEnabled = settings.hapticOnError
+            _activeCategories.value = settings.spanish.activeCategories.map { it.rawValue }
+            _timeLeft.value = totalTime
+            loadWords()
+            startCountdown()
+        }
     }
 
-    private fun loadWords() {
-        try {
-            val json = context.assets.open("words.json")
-                .bufferedReader()
-                .use { it.readText() }
-            val type = object : TypeToken<WordBank>() {}.type
-            val bank: WordBank = Gson().fromJson(json, type)
-            allWords = bank.words.filter {
-                _activeCategories.value.contains(it.category)
+    private suspend fun loadWords() {
+        allWords = try {
+            datasetRepository.words().filter {
+                _activeCategories.value.contains(it.category.rawValue)
             }.shuffled()
         } catch (e: Exception) {
-            allWords = emptyList()
+            emptyList()
         }
     }
 
@@ -123,7 +110,7 @@ class WordChallengeViewModel @Inject constructor(
         val selected = _selectedCategory.value ?: return
         val current = _currentWord.value ?: return
 
-        if (selected == current.category) {
+        if (selected == current.category.rawValue) {
             _score.value++
             hapticManager.success()
             nextWord()
@@ -164,11 +151,11 @@ class WordChallengeViewModel @Inject constructor(
 
         val session = GameSession(
             gameType = GameType.LANGUAGE,
-            operation = "tipo_palabra",
+            operation = GameOperation.TIPO_PALABRA,
             score = _score.value,
             timeLimit = totalTime
         )
-        sessionStore.addSession(session)
+        viewModelScope.launch { sessionRepository.add(session) }
         _gameOver.value = true
     }
 

@@ -115,13 +115,13 @@ fun WordChallengeScreen(
                         category = category,
                         selectedCategory = selectedCategory,
                         wrongSelection = wrongSelection,
-                        correctCategory = currentWord?.category,
+                        correctCategory = currentWord?.category?.rawValue,
                         bounceCorrect = bounceCorrect
                     )
 
                     val scale by animateFloatAsState(
                         targetValue = when {
-                            bounceCorrect && category == currentWord?.category -> 1.08f
+                            bounceCorrect && category == currentWord?.category?.rawValue -> 1.08f
                             selectedCategory == category -> 1.04f
                             else -> 1.0f
                         },
