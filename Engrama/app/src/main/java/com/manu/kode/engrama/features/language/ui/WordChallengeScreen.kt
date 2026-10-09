@@ -21,7 +21,8 @@ import androidx.hilt.lifecycle.viewmodel.compose.hiltViewModel
 import androidx.navigation.NavHostController
 import com.manu.kode.engrama.features.language.viewmodel.WordChallengeViewModel
 import com.manu.kode.engrama.features.math.ui.TimerRingView
-import com.manu.kode.engrama.navigation.AppRoute
+import com.manu.kode.engrama.navigation.Home
+import com.manu.kode.engrama.navigation.SummaryLanguage
 
 @Composable
 fun WordChallengeScreen(
@@ -42,9 +43,9 @@ fun WordChallengeScreen(
     LaunchedEffect(gameOver) {
         if (gameOver) {
             navController.navigate(
-                AppRoute.SummaryLanguage.createRoute(viewModel.score.value)
+                SummaryLanguage(viewModel.score.value)
             ) {
-                popUpTo(AppRoute.Home.route)
+                popUpTo(Home)
             }
         }
     }

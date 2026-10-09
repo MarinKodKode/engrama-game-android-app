@@ -14,7 +14,7 @@ import androidx.compose.ui.unit.sp
 import androidx.hilt.lifecycle.viewmodel.compose.hiltViewModel
 import androidx.navigation.NavHostController
 import com.manu.kode.engrama.features.math.viewmodel.ChooseOperationViewModel
-import com.manu.kode.engrama.navigation.AppRoute
+import com.manu.kode.engrama.navigation.ChallengeOperation
 
 @Composable
 fun ChooseOperationScreen(
@@ -65,7 +65,7 @@ fun ChooseOperationScreen(
                     modifier = Modifier.weight(1f)
                 ) {
                     navController.navigate(
-                        AppRoute.ChallengeOperation.createRoute(
+                        ChallengeOperation(
                             sign = "+",
                             digits = settings.math.add.numberOfDigits,
                             timeLimit = settings.math.timeLimit,
@@ -80,7 +80,7 @@ fun ChooseOperationScreen(
                     modifier = Modifier.weight(1f)
                 ) {
                     navController.navigate(
-                        AppRoute.ChallengeOperation.createRoute(
+                        ChallengeOperation(
                             sign = "-",
                             digits = settings.math.substract.numberOfDigits,
                             timeLimit = settings.math.timeLimit,
@@ -101,7 +101,7 @@ fun ChooseOperationScreen(
                     modifier = Modifier.weight(1f)
                 ) {
                     navController.navigate(
-                        AppRoute.ChallengeOperation.createRoute(
+                        ChallengeOperation(
                             sign = "*",
                             digits = settings.math.multiply.numberOfDigits,
                             timeLimit = settings.math.timeLimit,
@@ -116,7 +116,7 @@ fun ChooseOperationScreen(
                     modifier = Modifier.weight(1f)
                 ) {
                     navController.navigate(
-                        AppRoute.ChallengeOperation.createRoute(
+                        ChallengeOperation(
                             sign = "/",
                             digits = settings.math.divide.numberOfDigits,
                             timeLimit = settings.math.timeLimit,
@@ -139,7 +139,7 @@ fun ChooseOperationScreen(
                         else -> settings.math.divide
                     }
                     navController.navigate(
-                        AppRoute.ChallengeOperation.createRoute(
+                        ChallengeOperation(
                             sign = randomSign,
                             digits = opSettings.numberOfDigits,
                             timeLimit = settings.math.timeLimit,

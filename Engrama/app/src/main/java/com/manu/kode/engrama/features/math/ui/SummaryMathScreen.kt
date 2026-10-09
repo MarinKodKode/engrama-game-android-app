@@ -14,7 +14,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavHostController
-import com.manu.kode.engrama.navigation.AppRoute
+import com.manu.kode.engrama.navigation.Home
 
 @Composable
 fun SummaryMathScreen(
@@ -86,8 +86,8 @@ fun SummaryMathScreen(
             // Botón
             Button(
                 onClick = {
-                    navController.navigate(AppRoute.Home.route) {
-                        popUpTo(AppRoute.Home.route) { inclusive = true }
+                    navController.navigate(Home) {
+                        popUpTo(Home) { inclusive = true }
                     }
                 },
                 modifier = Modifier

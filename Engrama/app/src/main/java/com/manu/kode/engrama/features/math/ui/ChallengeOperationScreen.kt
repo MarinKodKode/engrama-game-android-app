@@ -19,7 +19,8 @@ import androidx.compose.ui.unit.sp
 import androidx.hilt.lifecycle.viewmodel.compose.hiltViewModel
 import androidx.navigation.NavHostController
 import com.manu.kode.engrama.features.math.viewmodel.ChallengeOperationViewModel
-import com.manu.kode.engrama.navigation.AppRoute
+import com.manu.kode.engrama.navigation.ChooseOperation
+import com.manu.kode.engrama.navigation.SummaryMath
 import kotlinx.coroutines.delay
 
 @Composable
@@ -48,9 +49,9 @@ fun ChallengeOperationScreen(
     LaunchedEffect(gameOver) {
         if (gameOver) {
             navController.navigate(
-                AppRoute.SummaryMath.createRoute(viewModel.score.value)
+                SummaryMath(viewModel.score.value)
             ) {
-                popUpTo(AppRoute.ChooseOperation.route)
+                popUpTo(ChooseOperation)
             }
         }
     }

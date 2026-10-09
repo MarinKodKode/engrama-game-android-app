@@ -20,7 +20,11 @@ import androidx.compose.ui.unit.sp
 import androidx.hilt.lifecycle.viewmodel.compose.hiltViewModel
 import androidx.navigation.NavHostController
 import com.manu.kode.engrama.R
-import com.manu.kode.engrama.navigation.AppRoute
+import com.manu.kode.engrama.navigation.Analytics
+import com.manu.kode.engrama.navigation.ChooseOperation
+import com.manu.kode.engrama.navigation.Settings
+import com.manu.kode.engrama.navigation.TriviaChallenge
+import com.manu.kode.engrama.navigation.WordChallenge
 
 @Composable
 fun HomeScreen(
@@ -42,7 +46,7 @@ fun HomeScreen(
             horizontalArrangement = Arrangement.SpaceBetween,
             verticalAlignment = Alignment.CenterVertically
         ) {
-            IconButton(onClick = { navController.navigate(AppRoute.Analytics.route) }) {
+            IconButton(onClick = { navController.navigate(Analytics) }) {
                 Icon(
                     painter = painterResource(R.drawable.ic_analytics),
                     contentDescription = "Analytics",
@@ -50,7 +54,7 @@ fun HomeScreen(
                     modifier = Modifier.size(36.dp)
                 )
             }
-            IconButton(onClick = { navController.navigate(AppRoute.Settings.route) }) {
+            IconButton(onClick = { navController.navigate(Settings) }) {
                 Icon(
                     painter = painterResource(R.drawable.ic_settings),
                     contentDescription = "Settings",
@@ -88,7 +92,7 @@ fun HomeScreen(
                     subtitle = "Identifica verbos, adjetivos y más",
                     color = Color(0xFF9C27B0)
                 ) {
-                    navController.navigate(AppRoute.WordChallenge.route)
+                    navController.navigate(WordChallenge)
                 }
             }
 
@@ -100,7 +104,7 @@ fun HomeScreen(
                     subtitle = "Suma, resta, multiplica y divide",
                     color = Color(0xFF00BCD4)
                 ) {
-                    navController.navigate(AppRoute.ChooseOperation.route)
+                    navController.navigate(ChooseOperation)
                 }
             }
 
@@ -112,7 +116,7 @@ fun HomeScreen(
                     subtitle = "Química, historia, geografía y más",
                     color = Color(0xFFFF9800)
                 ) {
-                    navController.navigate(AppRoute.TriviaChallenge.route)
+                    navController.navigate(TriviaChallenge)
                 }
             }
         }

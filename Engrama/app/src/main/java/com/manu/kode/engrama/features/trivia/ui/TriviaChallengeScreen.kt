@@ -19,7 +19,8 @@ import androidx.navigation.NavHostController
 import com.manu.kode.engrama.features.math.ui.TimerRingView
 import com.manu.kode.engrama.features.trivia.viewmodel.TriviaButtonState
 import com.manu.kode.engrama.features.trivia.viewmodel.TriviaViewModel
-import com.manu.kode.engrama.navigation.AppRoute
+import com.manu.kode.engrama.navigation.Home
+import com.manu.kode.engrama.navigation.SummaryTrivia
 
 @Composable
 fun TriviaChallengeScreen(
@@ -39,9 +40,9 @@ fun TriviaChallengeScreen(
     LaunchedEffect(gameOver) {
         if (gameOver) {
             navController.navigate(
-                AppRoute.SummaryTrivia.createRoute(viewModel.score.value)
+                SummaryTrivia(viewModel.score.value)
             ) {
-                popUpTo(AppRoute.Home.route)
+                popUpTo(Home)
             }
         }
     }
