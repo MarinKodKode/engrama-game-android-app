@@ -82,9 +82,9 @@ fun ChooseOperationScreen(
                     navController.navigate(
                         AppRoute.ChallengeOperation.createRoute(
                             sign = "-",
-                            digits = settings.math.subtract.numberOfDigits,
+                            digits = settings.math.substract.numberOfDigits,
                             timeLimit = settings.math.timeLimit,
-                            useNegatives = settings.math.subtract.useNegativeNumbers,
+                            useNegatives = settings.math.substract.useNegativeNumbers,
                             hapticEnabled = settings.hapticOnError
                         )
                     )
@@ -134,7 +134,7 @@ fun ChooseOperationScreen(
                     val randomSign = ops.random()
                     val opSettings = when (randomSign) {
                         "+" -> settings.math.add
-                        "-" -> settings.math.subtract
+                        "-" -> settings.math.substract
                         "*" -> settings.math.multiply
                         else -> settings.math.divide
                     }

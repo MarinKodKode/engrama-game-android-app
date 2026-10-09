@@ -15,10 +15,11 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.hilt.lifecycle.viewmodel.compose.hiltViewModel
 import androidx.navigation.NavHostController
-import com.manu.kode.engrama.data.model.GameSession
-import com.manu.kode.engrama.data.model.GameType
+import com.manu.kode.engrama.domain.model.GameSession
+import com.manu.kode.engrama.domain.model.GameType
 import com.manu.kode.engrama.features.analytics.viewmodel.AnalyticsViewModel
 import java.text.SimpleDateFormat
+import java.util.Date
 import java.util.Locale
 
 @Composable
@@ -247,7 +248,7 @@ fun SessionRowView(session: GameSession) {
                     color = Color.Gray
                 )
                 Text(
-                    text = dateFormat.format(session.date),
+                    text = dateFormat.format(Date.from(session.date)),
                     fontSize = 12.sp,
                     color = Color.Gray.copy(alpha = 0.7f)
                 )
@@ -298,7 +299,7 @@ fun EmptyHistorialView() {
 }
 
 fun rowTitle(session: GameSession): String = when (session.gameType) {
-    GameType.MATH -> when (session.operation) {
+    GameType.MATH -> when (session.operation.rawValue) {
         "+" -> "Suma"
         "-" -> "Resta"
         "*" -> "Multiplicación"
@@ -307,16 +308,18 @@ fun rowTitle(session: GameSession): String = when (session.gameType) {
     }
     GameType.LANGUAGE -> "Tipo de Palabra"
     GameType.TRIVIA -> "Cultura General"
+    GameType.FLASHCARDS -> "Tarjetas de estudio" // iOS AnalyticsView.swift:226
 }
 
 fun rowSubtitle(session: GameSession): String = when (session.gameType) {
     GameType.MATH -> "${session.numberOfDigits} dígito(s) · ${session.timeLimit}s"
     GameType.LANGUAGE -> "Tipo de palabra · ${session.timeLimit}s"
     GameType.TRIVIA -> "Trivia · ${session.timeLimit}s"
+    GameType.FLASHCARDS -> "Ejercicio de memoria" // iOS AnalyticsView.swift:235
 }
 
 fun rowIcon(session: GameSession): String = when (session.gameType) {
-    GameType.MATH -> when (session.operation) {
+    GameType.MATH -> when (session.operation.rawValue) {
         "+" -> "➕"
         "-" -> "➖"
         "*" -> "✖️"
@@ -325,10 +328,11 @@ fun rowIcon(session: GameSession): String = when (session.gameType) {
     }
     GameType.LANGUAGE -> "📝"
     GameType.TRIVIA -> "🧠"
+    GameType.FLASHCARDS -> "🃏" // TEMPORAL: iOS usa SF Symbol "rectangle.stack" (AnalyticsView.swift:244)
 }
 
 fun rowColor(session: GameSession): Color = when (session.gameType) {
-    GameType.MATH -> when (session.operation) {
+    GameType.MATH -> when (session.operation.rawValue) {
         "+" -> Color(0xFF00BCD4)
         "-" -> Color(0xFF795548)
         "*" -> Color(0xFF4CAF50)
@@ -337,6 +341,7 @@ fun rowColor(session: GameSession): Color = when (session.gameType) {
     }
     GameType.LANGUAGE -> Color(0xFF9C27B0)
     GameType.TRIVIA -> Color(0xFFFF9800)
+    GameType.FLASHCARDS -> Color(0xFF4CAF50) // iOS .green (AnalyticsView.swift:253)
 }
 
 fun scoreColor(session: GameSession): Color {
@@ -344,6 +349,7 @@ fun scoreColor(session: GameSession): Color {
         GameType.MATH -> 50
         GameType.LANGUAGE -> 30
         GameType.TRIVIA -> 20
+        GameType.FLASHCARDS -> maxOf(session.score, 1) // iOS AnalyticsView.swift:177
     }
     val ratio = session.score.toFloat() / max.toFloat()
     return when {
@@ -358,5 +364,6 @@ fun accentColor(filter: GameType?): Color = when (filter) {
     GameType.MATH     -> Color(0xFF00BCD4)
     GameType.LANGUAGE -> Color(0xFF9C27B0)
     GameType.TRIVIA   -> Color(0xFFFF9800)
+    GameType.FLASHCARDS -> Color(0xFF4CAF50) // iOS .green (AnalyticsView.swift:111)
     null              -> Color(0xFF00BCD4)
 }

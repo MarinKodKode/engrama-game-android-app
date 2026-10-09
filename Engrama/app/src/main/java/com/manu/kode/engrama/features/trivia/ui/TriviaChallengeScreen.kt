@@ -91,7 +91,7 @@ fun TriviaChallengeScreen(
                         color = Color(0xFFFF9800).copy(alpha = 0.12f)
                     ) {
                         Text(
-                            text = question.category.replaceFirstChar { it.uppercase() },
+                            text = question.category.rawValue.replaceFirstChar { it.uppercase() },
                             fontSize = 14.sp,
                             fontWeight = FontWeight.SemiBold,
                             color = Color(0xFFFF9800),
